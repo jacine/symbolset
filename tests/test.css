@@ -1,0 +1,1072 @@
+@charset "UTF-8";
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2012 Oak Studios LLC
+*/
+.standard .action:after, .standard .addcalendar:after, .standard .airplay:after, .standard .alert:after, .standard .attach:after, .standard .backspace:after, .standard .ban:after, .standard .barchart:after, .standard .battery:after, .standard .book:after, .standard .bookmark:after, .standard .box:after, .standard .briefcase:after, .standard .buildings:after, .standard .calendar:after, .standard .camera:after, .standard .cart:after, .standard .caution:after, .standard .cell:after, .standard .chat:after, .standard .check:after, .standard .checkcalendar:after, .standard .clock:after, .standard .cloud:after, .standard .columns:after, .standard .compass:after, .standard .compose:after, .standard .connection:after, .standard .contract:after, .standard .creditcard:after, .standard .crop:after, .standard .crosshair:after, .standard .cursor:after, .standard .dashboard:after, .standard .database:after, .standard .delete:after, .standard .deletecalendar:after, .standard .desktop:after, .standard .directleft:after, .standard .directright:after, .standard .directup:after, .standard .dislike:after, .standard .dollarsign:after, .standard .down:after, .standard .downleft:after, .standard .download:after, .standard .downloadcloud:after, .standard .downright:after, .standard .dropdown:after, .standard .droplet:after, .standard .eject:after, .standard .ellipsis:after, .standard .ellipsischat:after, .standard .emptybattery:after, .standard .erase:after, .standard .expand:after, .standard .facetime:after, .standard .fastforward:after, .standard .fax:after, .standard .femaleuser:after, .standard .file:after, .standard .fill:after, .standard .filter:after, .standard .flag:after, .standard .flask:after, .standard .folder:after, .standard .font:after, .standard .fork:after, .standard .globe:after, .standard .grid:after, .standard .halfheart:after, .standard .halfstar:after, .standard .hdd:after, .standard .heart:after, .standard .help:after, .standard .highbattery:after, .standard .highvolume:after, .standard .home:after, .standard .hyphen:after, .standard .inbox:after, .standard .info:after, .standard .key:after, .standard .laptop:after, .standard .layers:after, .standard .layout:after, .standard .left:after, .standard .lightbulb:after, .social-circle .like:after, .social .like:after, .standard .like:after, .standard .link:after, .standard .list:after, .standard .loading:after, .standard .location:after, .standard .lock:after, .standard .logout:after, .standard .lowbattery:after, .standard .lowvolume:after, .social-circle .mail:after, .social .mail:after, .standard .mail:after, .standard .map:after, .standard .mediumbattery:after, .standard .merge:after, .standard .mic:after, .standard .move:after, .standard .music:after, .standard .navigate:after, .standard .navigatedown:after, .standard .navigateleft:after, .standard .navigateright:after, .standard .navigateup:after, .standard .newspaper:after, .standard .notebook:after, .standard .notifications:after, .standard .notificationsdisabled:after, .standard .openbook:after, .standard .pause:after, .standard .phone:after, .standard .phonedisabled:after, .standard .picture:after, .standard .piechart:after, .standard .pin:after, .standard .play:after, .standard .plus:after, .standard .print:after, .standard .quote:after, .standard .record:after, .standard .redirect:after, .standard .refresh:after, .standard .removecalendar:after, .standard .repeat:after, .standard .replay:after, .standard .reply:after, .standard .retweet:after, .standard .rewind:after, .standard .right:after, .standard .rows:after, .social-circle .rss:after, .social .rss:after, .standard .rss:after, .standard .sample:after, .standard .search:after, .standard .send:after, .standard .settings:after, .standard .shuffle:after, .standard .signpost:after, .standard .skipback:after, .standard .skipforward:after, .standard .star:after, .standard .stop:after, .standard .stopwatch:after, .standard .stroke:after, .standard .sync:after, .standard .tablet:after, .standard .tag:after, .standard .target:after, .standard .text:after, .standard .thumbnails:after, .standard .transfer:after, .standard .trash:after, .standard .unlock:after, .standard .up:after, .standard .upleft:after, .standard .upload:after, .standard .uploadcloud:after, .standard .upright:after, .standard .user:after, .standard .users:after, .standard .video:after, .standard .view:after, .standard .volume:after, .standard .warehouse:after, .standard .wifi:after, .standard .write:after, .standard .writingdisabled:after, .standard .zoomin:after, .standard .zoomout:after, .standard i, .social-circle .android:after, .social .android:after, .social-circle .appdotnet:after, .social .appdotnet:after, .social-circle .apple:after, .social .apple:after, .social-circle .behance:after, .social .behance:after, .social-circle .blackberry:after, .social .blackberry:after, .social-circle .blogger:after, .social .blogger:after, .social-circle .dribbble:after, .social .dribbble:after, .social-circle .dropbox:after, .social .dropbox:after, .social-circle .facebook:after, .social .facebook:after, .social-circle .fivehundredpx:after, .social .fivehundredpx:after, .social-circle .flickr:after, .social .flickr:after, .social-circle .foursquare:after, .social .foursquare:after, .social-circle .github:after, .social .github:after, .social-circle .googleplus:after, .social .googleplus:after, .social-circle .instagram:after, .social .instagram:after, .social-circle .kickstarter:after, .social .kickstarter:after, .social-circle .lastfm:after, .social .lastfm:after, .social-circle .linkedin:after, .social .linkedin:after, .social-circle .microsoft:after, .social .microsoft:after, .social-circle .octocat:after, .social .octocat:after, .social-circle .paypal:after, .social .paypal:after, .social-circle .pinboard:after, .social .pinboard:after, .social-circle .pinterest:after, .social .pinterest:after, .social-circle .posterous:after, .social .posterous:after, .social-circle .rdio:after, .social .rdio:after, .social-circle .readmill:after, .social .readmill:after, .social-circle .reddit:after, .social .reddit:after, .social-circle .share:after, .social .share:after, .social-circle .skype:after, .social .skype:after, .social-circle .soundcloud:after, .social .soundcloud:after, .social-circle .spotify:after, .social .spotify:after, .social-circle .stackoverflow:after, .social .stackoverflow:after, .social-circle .svpply:after, .social .svpply:after, .social-circle .tumblr:after, .social .tumblr:after, .social-circle .twitter:after, .social .twitter:after, .social-circle .vimeo:after, .social .vimeo:after, .social-circle .windows:after, .social .windows:after, .social-circle .wordpress:after, .social .wordpress:after, .social-circle .yelp:after, .social .yelp:after, .social-circle .youtube:after, .social .youtube:after, .social-circle .zerply:after, .social .zerply:after, .social-circle i, .social i {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+html:hover .standard .action:after, .standard html:hover .action:after, html:hover .standard .addcalendar:after, .standard html:hover .addcalendar:after, html:hover .standard .airplay:after, .standard html:hover .airplay:after, html:hover .standard .alert:after, .standard html:hover .alert:after, html:hover .standard .attach:after, .standard html:hover .attach:after, html:hover .standard .backspace:after, .standard html:hover .backspace:after, html:hover .standard .ban:after, .standard html:hover .ban:after, html:hover .standard .barchart:after, .standard html:hover .barchart:after, html:hover .standard .battery:after, .standard html:hover .battery:after, html:hover .standard .book:after, .standard html:hover .book:after, html:hover .standard .bookmark:after, .standard html:hover .bookmark:after, html:hover .standard .box:after, .standard html:hover .box:after, html:hover .standard .briefcase:after, .standard html:hover .briefcase:after, html:hover .standard .buildings:after, .standard html:hover .buildings:after, html:hover .standard .calendar:after, .standard html:hover .calendar:after, html:hover .standard .camera:after, .standard html:hover .camera:after, html:hover .standard .cart:after, .standard html:hover .cart:after, html:hover .standard .caution:after, .standard html:hover .caution:after, html:hover .standard .cell:after, .standard html:hover .cell:after, html:hover .standard .chat:after, .standard html:hover .chat:after, html:hover .standard .check:after, .standard html:hover .check:after, html:hover .standard .checkcalendar:after, .standard html:hover .checkcalendar:after, html:hover .standard .clock:after, .standard html:hover .clock:after, html:hover .standard .cloud:after, .standard html:hover .cloud:after, html:hover .standard .columns:after, .standard html:hover .columns:after, html:hover .standard .compass:after, .standard html:hover .compass:after, html:hover .standard .compose:after, .standard html:hover .compose:after, html:hover .standard .connection:after, .standard html:hover .connection:after, html:hover .standard .contract:after, .standard html:hover .contract:after, html:hover .standard .creditcard:after, .standard html:hover .creditcard:after, html:hover .standard .crop:after, .standard html:hover .crop:after, html:hover .standard .crosshair:after, .standard html:hover .crosshair:after, html:hover .standard .cursor:after, .standard html:hover .cursor:after, html:hover .standard .dashboard:after, .standard html:hover .dashboard:after, html:hover .standard .database:after, .standard html:hover .database:after, html:hover .standard .delete:after, .standard html:hover .delete:after, html:hover .standard .deletecalendar:after, .standard html:hover .deletecalendar:after, html:hover .standard .desktop:after, .standard html:hover .desktop:after, html:hover .standard .directleft:after, .standard html:hover .directleft:after, html:hover .standard .directright:after, .standard html:hover .directright:after, html:hover .standard .directup:after, .standard html:hover .directup:after, html:hover .standard .dislike:after, .standard html:hover .dislike:after, html:hover .standard .dollarsign:after, .standard html:hover .dollarsign:after, html:hover .standard .down:after, .standard html:hover .down:after, html:hover .standard .downleft:after, .standard html:hover .downleft:after, html:hover .standard .download:after, .standard html:hover .download:after, html:hover .standard .downloadcloud:after, .standard html:hover .downloadcloud:after, html:hover .standard .downright:after, .standard html:hover .downright:after, html:hover .standard .dropdown:after, .standard html:hover .dropdown:after, html:hover .standard .droplet:after, .standard html:hover .droplet:after, html:hover .standard .eject:after, .standard html:hover .eject:after, html:hover .standard .ellipsis:after, .standard html:hover .ellipsis:after, html:hover .standard .ellipsischat:after, .standard html:hover .ellipsischat:after, html:hover .standard .emptybattery:after, .standard html:hover .emptybattery:after, html:hover .standard .erase:after, .standard html:hover .erase:after, html:hover .standard .expand:after, .standard html:hover .expand:after, html:hover .standard .facetime:after, .standard html:hover .facetime:after, html:hover .standard .fastforward:after, .standard html:hover .fastforward:after, html:hover .standard .fax:after, .standard html:hover .fax:after, html:hover .standard .femaleuser:after, .standard html:hover .femaleuser:after, html:hover .standard .file:after, .standard html:hover .file:after, html:hover .standard .fill:after, .standard html:hover .fill:after, html:hover .standard .filter:after, .standard html:hover .filter:after, html:hover .standard .flag:after, .standard html:hover .flag:after, html:hover .standard .flask:after, .standard html:hover .flask:after, html:hover .standard .folder:after, .standard html:hover .folder:after, html:hover .standard .font:after, .standard html:hover .font:after, html:hover .standard .fork:after, .standard html:hover .fork:after, html:hover .standard .globe:after, .standard html:hover .globe:after, html:hover .standard .grid:after, .standard html:hover .grid:after, html:hover .standard .halfheart:after, .standard html:hover .halfheart:after, html:hover .standard .halfstar:after, .standard html:hover .halfstar:after, html:hover .standard .hdd:after, .standard html:hover .hdd:after, html:hover .standard .heart:after, .standard html:hover .heart:after, html:hover .standard .help:after, .standard html:hover .help:after, html:hover .standard .highbattery:after, .standard html:hover .highbattery:after, html:hover .standard .highvolume:after, .standard html:hover .highvolume:after, html:hover .standard .home:after, .standard html:hover .home:after, html:hover .standard .hyphen:after, .standard html:hover .hyphen:after, html:hover .standard .inbox:after, .standard html:hover .inbox:after, html:hover .standard .info:after, .standard html:hover .info:after, html:hover .standard .key:after, .standard html:hover .key:after, html:hover .standard .laptop:after, .standard html:hover .laptop:after, html:hover .standard .layers:after, .standard html:hover .layers:after, html:hover .standard .layout:after, .standard html:hover .layout:after, html:hover .standard .left:after, .standard html:hover .left:after, html:hover .standard .lightbulb:after, .standard html:hover .lightbulb:after, html:hover .social-circle .like:after, .social-circle html:hover .like:after, html:hover .social .like:after, .social html:hover .like:after, html:hover .standard .like:after, .standard html:hover .like:after, html:hover .standard .link:after, .standard html:hover .link:after, html:hover .standard .list:after, .standard html:hover .list:after, html:hover .standard .loading:after, .standard html:hover .loading:after, html:hover .standard .location:after, .standard html:hover .location:after, html:hover .standard .lock:after, .standard html:hover .lock:after, html:hover .standard .logout:after, .standard html:hover .logout:after, html:hover .standard .lowbattery:after, .standard html:hover .lowbattery:after, html:hover .standard .lowvolume:after, .standard html:hover .lowvolume:after, html:hover .social-circle .mail:after, .social-circle html:hover .mail:after, html:hover .social .mail:after, .social html:hover .mail:after, html:hover .standard .mail:after, .standard html:hover .mail:after, html:hover .standard .map:after, .standard html:hover .map:after, html:hover .standard .mediumbattery:after, .standard html:hover .mediumbattery:after, html:hover .standard .merge:after, .standard html:hover .merge:after, html:hover .standard .mic:after, .standard html:hover .mic:after, html:hover .standard .move:after, .standard html:hover .move:after, html:hover .standard .music:after, .standard html:hover .music:after, html:hover .standard .navigate:after, .standard html:hover .navigate:after, html:hover .standard .navigatedown:after, .standard html:hover .navigatedown:after, html:hover .standard .navigateleft:after, .standard html:hover .navigateleft:after, html:hover .standard .navigateright:after, .standard html:hover .navigateright:after, html:hover .standard .navigateup:after, .standard html:hover .navigateup:after, html:hover .standard .newspaper:after, .standard html:hover .newspaper:after, html:hover .standard .notebook:after, .standard html:hover .notebook:after, html:hover .standard .notifications:after, .standard html:hover .notifications:after, html:hover .standard .notificationsdisabled:after, .standard html:hover .notificationsdisabled:after, html:hover .standard .openbook:after, .standard html:hover .openbook:after, html:hover .standard .pause:after, .standard html:hover .pause:after, html:hover .standard .phone:after, .standard html:hover .phone:after, html:hover .standard .phonedisabled:after, .standard html:hover .phonedisabled:after, html:hover .standard .picture:after, .standard html:hover .picture:after, html:hover .standard .piechart:after, .standard html:hover .piechart:after, html:hover .standard .pin:after, .standard html:hover .pin:after, html:hover .standard .play:after, .standard html:hover .play:after, html:hover .standard .plus:after, .standard html:hover .plus:after, html:hover .standard .print:after, .standard html:hover .print:after, html:hover .standard .quote:after, .standard html:hover .quote:after, html:hover .standard .record:after, .standard html:hover .record:after, html:hover .standard .redirect:after, .standard html:hover .redirect:after, html:hover .standard .refresh:after, .standard html:hover .refresh:after, html:hover .standard .removecalendar:after, .standard html:hover .removecalendar:after, html:hover .standard .repeat:after, .standard html:hover .repeat:after, html:hover .standard .replay:after, .standard html:hover .replay:after, html:hover .standard .reply:after, .standard html:hover .reply:after, html:hover .standard .retweet:after, .standard html:hover .retweet:after, html:hover .standard .rewind:after, .standard html:hover .rewind:after, html:hover .standard .right:after, .standard html:hover .right:after, html:hover .standard .rows:after, .standard html:hover .rows:after, html:hover .social-circle .rss:after, .social-circle html:hover .rss:after, html:hover .social .rss:after, .social html:hover .rss:after, html:hover .standard .rss:after, .standard html:hover .rss:after, html:hover .standard .sample:after, .standard html:hover .sample:after, html:hover .standard .search:after, .standard html:hover .search:after, html:hover .standard .send:after, .standard html:hover .send:after, html:hover .standard .settings:after, .standard html:hover .settings:after, html:hover .standard .shuffle:after, .standard html:hover .shuffle:after, html:hover .standard .signpost:after, .standard html:hover .signpost:after, html:hover .standard .skipback:after, .standard html:hover .skipback:after, html:hover .standard .skipforward:after, .standard html:hover .skipforward:after, html:hover .standard .star:after, .standard html:hover .star:after, html:hover .standard .stop:after, .standard html:hover .stop:after, html:hover .standard .stopwatch:after, .standard html:hover .stopwatch:after, html:hover .standard .stroke:after, .standard html:hover .stroke:after, html:hover .standard .sync:after, .standard html:hover .sync:after, html:hover .standard .tablet:after, .standard html:hover .tablet:after, html:hover .standard .tag:after, .standard html:hover .tag:after, html:hover .standard .target:after, .standard html:hover .target:after, html:hover .standard .text:after, .standard html:hover .text:after, html:hover .standard .thumbnails:after, .standard html:hover .thumbnails:after, html:hover .standard .transfer:after, .standard html:hover .transfer:after, html:hover .standard .trash:after, .standard html:hover .trash:after, html:hover .standard .unlock:after, .standard html:hover .unlock:after, html:hover .standard .up:after, .standard html:hover .up:after, html:hover .standard .upleft:after, .standard html:hover .upleft:after, html:hover .standard .upload:after, .standard html:hover .upload:after, html:hover .standard .uploadcloud:after, .standard html:hover .uploadcloud:after, html:hover .standard .upright:after, .standard html:hover .upright:after, html:hover .standard .user:after, .standard html:hover .user:after, html:hover .standard .users:after, .standard html:hover .users:after, html:hover .standard .video:after, .standard html:hover .video:after, html:hover .standard .view:after, .standard html:hover .view:after, html:hover .standard .volume:after, .standard html:hover .volume:after, html:hover .standard .warehouse:after, .standard html:hover .warehouse:after, html:hover .standard .wifi:after, .standard html:hover .wifi:after, html:hover .standard .write:after, .standard html:hover .write:after, html:hover .standard .writingdisabled:after, .standard html:hover .writingdisabled:after, html:hover .standard .zoomin:after, .standard html:hover .zoomin:after, html:hover .standard .zoomout:after, .standard html:hover .zoomout:after, html:hover .standard i, .standard html:hover i, html:hover .social-circle .android:after, .social-circle html:hover .android:after, html:hover .social .android:after, .social html:hover .android:after, html:hover .social-circle .appdotnet:after, .social-circle html:hover .appdotnet:after, html:hover .social .appdotnet:after, .social html:hover .appdotnet:after, html:hover .social-circle .apple:after, .social-circle html:hover .apple:after, html:hover .social .apple:after, .social html:hover .apple:after, html:hover .social-circle .behance:after, .social-circle html:hover .behance:after, html:hover .social .behance:after, .social html:hover .behance:after, html:hover .social-circle .blackberry:after, .social-circle html:hover .blackberry:after, html:hover .social .blackberry:after, .social html:hover .blackberry:after, html:hover .social-circle .blogger:after, .social-circle html:hover .blogger:after, html:hover .social .blogger:after, .social html:hover .blogger:after, html:hover .social-circle .dribbble:after, .social-circle html:hover .dribbble:after, html:hover .social .dribbble:after, .social html:hover .dribbble:after, html:hover .social-circle .dropbox:after, .social-circle html:hover .dropbox:after, html:hover .social .dropbox:after, .social html:hover .dropbox:after, html:hover .social-circle .facebook:after, .social-circle html:hover .facebook:after, html:hover .social .facebook:after, .social html:hover .facebook:after, html:hover .social-circle .fivehundredpx:after, .social-circle html:hover .fivehundredpx:after, html:hover .social .fivehundredpx:after, .social html:hover .fivehundredpx:after, html:hover .social-circle .flickr:after, .social-circle html:hover .flickr:after, html:hover .social .flickr:after, .social html:hover .flickr:after, html:hover .social-circle .foursquare:after, .social-circle html:hover .foursquare:after, html:hover .social .foursquare:after, .social html:hover .foursquare:after, html:hover .social-circle .github:after, .social-circle html:hover .github:after, html:hover .social .github:after, .social html:hover .github:after, html:hover .social-circle .googleplus:after, .social-circle html:hover .googleplus:after, html:hover .social .googleplus:after, .social html:hover .googleplus:after, html:hover .social-circle .instagram:after, .social-circle html:hover .instagram:after, html:hover .social .instagram:after, .social html:hover .instagram:after, html:hover .social-circle .kickstarter:after, .social-circle html:hover .kickstarter:after, html:hover .social .kickstarter:after, .social html:hover .kickstarter:after, html:hover .social-circle .lastfm:after, .social-circle html:hover .lastfm:after, html:hover .social .lastfm:after, .social html:hover .lastfm:after, html:hover .social-circle .linkedin:after, .social-circle html:hover .linkedin:after, html:hover .social .linkedin:after, .social html:hover .linkedin:after, html:hover .social-circle .microsoft:after, .social-circle html:hover .microsoft:after, html:hover .social .microsoft:after, .social html:hover .microsoft:after, html:hover .social-circle .octocat:after, .social-circle html:hover .octocat:after, html:hover .social .octocat:after, .social html:hover .octocat:after, html:hover .social-circle .paypal:after, .social-circle html:hover .paypal:after, html:hover .social .paypal:after, .social html:hover .paypal:after, html:hover .social-circle .pinboard:after, .social-circle html:hover .pinboard:after, html:hover .social .pinboard:after, .social html:hover .pinboard:after, html:hover .social-circle .pinterest:after, .social-circle html:hover .pinterest:after, html:hover .social .pinterest:after, .social html:hover .pinterest:after, html:hover .social-circle .posterous:after, .social-circle html:hover .posterous:after, html:hover .social .posterous:after, .social html:hover .posterous:after, html:hover .social-circle .rdio:after, .social-circle html:hover .rdio:after, html:hover .social .rdio:after, .social html:hover .rdio:after, html:hover .social-circle .readmill:after, .social-circle html:hover .readmill:after, html:hover .social .readmill:after, .social html:hover .readmill:after, html:hover .social-circle .reddit:after, .social-circle html:hover .reddit:after, html:hover .social .reddit:after, .social html:hover .reddit:after, html:hover .social-circle .share:after, .social-circle html:hover .share:after, html:hover .social .share:after, .social html:hover .share:after, html:hover .social-circle .skype:after, .social-circle html:hover .skype:after, html:hover .social .skype:after, .social html:hover .skype:after, html:hover .social-circle .soundcloud:after, .social-circle html:hover .soundcloud:after, html:hover .social .soundcloud:after, .social html:hover .soundcloud:after, html:hover .social-circle .spotify:after, .social-circle html:hover .spotify:after, html:hover .social .spotify:after, .social html:hover .spotify:after, html:hover .social-circle .stackoverflow:after, .social-circle html:hover .stackoverflow:after, html:hover .social .stackoverflow:after, .social html:hover .stackoverflow:after, html:hover .social-circle .svpply:after, .social-circle html:hover .svpply:after, html:hover .social .svpply:after, .social html:hover .svpply:after, html:hover .social-circle .tumblr:after, .social-circle html:hover .tumblr:after, html:hover .social .tumblr:after, .social html:hover .tumblr:after, html:hover .social-circle .twitter:after, .social-circle html:hover .twitter:after, html:hover .social .twitter:after, .social html:hover .twitter:after, html:hover .social-circle .vimeo:after, .social-circle html:hover .vimeo:after, html:hover .social .vimeo:after, .social html:hover .vimeo:after, html:hover .social-circle .windows:after, .social-circle html:hover .windows:after, html:hover .social .windows:after, .social html:hover .windows:after, html:hover .social-circle .wordpress:after, .social-circle html:hover .wordpress:after, html:hover .social .wordpress:after, .social html:hover .wordpress:after, html:hover .social-circle .yelp:after, .social-circle html:hover .yelp:after, html:hover .social .yelp:after, .social html:hover .yelp:after, html:hover .social-circle .youtube:after, .social-circle html:hover .youtube:after, html:hover .social .youtube:after, .social html:hover .youtube:after, html:hover .social-circle .zerply:after, .social-circle html:hover .zerply:after, html:hover .social .zerply:after, .social html:hover .zerply:after, html:hover .social-circle i, .social-circle html:hover i, html:hover .social i, .social html:hover i {
+  -ms-zoom: 1;
+}
+
+@font-face {
+  font-family: "SSStandard";
+  src: url("../fonts/ss-standard/webfonts/ss-standard.eot");
+  src: url("../fonts/ss-standard/webfonts/ss-standard.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-standard/webfonts/ss-standard.woff") format("woff"), url("../fonts/ss-standard/webfonts/ss-standard.ttf") format("truetype"), url("../fonts/ss-standard/webfonts/ss-standard.svg#SSStandard") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.standard .action:after, .standard .addcalendar:after, .standard .airplay:after, .standard .alert:after, .standard .attach:after, .standard .backspace:after, .standard .ban:after, .standard .barchart:after, .standard .battery:after, .standard .book:after, .standard .bookmark:after, .standard .box:after, .standard .briefcase:after, .standard .buildings:after, .standard .calendar:after, .standard .camera:after, .standard .cart:after, .standard .caution:after, .standard .cell:after, .standard .chat:after, .standard .check:after, .standard .checkcalendar:after, .standard .clock:after, .standard .cloud:after, .standard .columns:after, .standard .compass:after, .standard .compose:after, .standard .connection:after, .standard .contract:after, .standard .creditcard:after, .standard .crop:after, .standard .crosshair:after, .standard .cursor:after, .standard .dashboard:after, .standard .database:after, .standard .delete:after, .standard .deletecalendar:after, .standard .desktop:after, .standard .directleft:after, .standard .directright:after, .standard .directup:after, .standard .dislike:after, .standard .dollarsign:after, .standard .down:after, .standard .downleft:after, .standard .download:after, .standard .downloadcloud:after, .standard .downright:after, .standard .dropdown:after, .standard .droplet:after, .standard .eject:after, .standard .ellipsis:after, .standard .ellipsischat:after, .standard .emptybattery:after, .standard .erase:after, .standard .expand:after, .standard .facetime:after, .standard .fastforward:after, .standard .fax:after, .standard .femaleuser:after, .standard .file:after, .standard .fill:after, .standard .filter:after, .standard .flag:after, .standard .flask:after, .standard .folder:after, .standard .font:after, .standard .fork:after, .standard .globe:after, .standard .grid:after, .standard .halfheart:after, .standard .halfstar:after, .standard .hdd:after, .standard .heart:after, .standard .help:after, .standard .highbattery:after, .standard .highvolume:after, .standard .home:after, .standard .hyphen:after, .standard .inbox:after, .standard .info:after, .standard .key:after, .standard .laptop:after, .standard .layers:after, .standard .layout:after, .standard .left:after, .standard .lightbulb:after, .social-circle .like:after, .social .like:after, .standard .like:after, .standard .link:after, .standard .list:after, .standard .loading:after, .standard .location:after, .standard .lock:after, .standard .logout:after, .standard .lowbattery:after, .standard .lowvolume:after, .social-circle .mail:after, .social .mail:after, .standard .mail:after, .standard .map:after, .standard .mediumbattery:after, .standard .merge:after, .standard .mic:after, .standard .move:after, .standard .music:after, .standard .navigate:after, .standard .navigatedown:after, .standard .navigateleft:after, .standard .navigateright:after, .standard .navigateup:after, .standard .newspaper:after, .standard .notebook:after, .standard .notifications:after, .standard .notificationsdisabled:after, .standard .openbook:after, .standard .pause:after, .standard .phone:after, .standard .phonedisabled:after, .standard .picture:after, .standard .piechart:after, .standard .pin:after, .standard .play:after, .standard .plus:after, .standard .print:after, .standard .quote:after, .standard .record:after, .standard .redirect:after, .standard .refresh:after, .standard .removecalendar:after, .standard .repeat:after, .standard .replay:after, .standard .reply:after, .standard .retweet:after, .standard .rewind:after, .standard .right:after, .standard .rows:after, .social-circle .rss:after, .social .rss:after, .standard .rss:after, .standard .sample:after, .standard .search:after, .standard .send:after, .standard .settings:after, .standard .shuffle:after, .standard .signpost:after, .standard .skipback:after, .standard .skipforward:after, .standard .star:after, .standard .stop:after, .standard .stopwatch:after, .standard .stroke:after, .standard .sync:after, .standard .tablet:after, .standard .tag:after, .standard .target:after, .standard .text:after, .standard .thumbnails:after, .standard .transfer:after, .standard .trash:after, .standard .unlock:after, .standard .up:after, .standard .upleft:after, .standard .upload:after, .standard .uploadcloud:after, .standard .upright:after, .standard .user:after, .standard .users:after, .standard .video:after, .standard .view:after, .standard .volume:after, .standard .warehouse:after, .standard .wifi:after, .standard .write:after, .standard .writingdisabled:after, .standard .zoomin:after, .standard .zoomout:after, .standard i {
+  font-family: "SSStandard";
+}
+
+.standard .action:after {
+  content: '';
+}
+
+.standard .addcalendar:after {
+  content: '';
+}
+
+.standard .airplay:after {
+  content: '';
+}
+
+.standard .alert:after {
+  content: '⚠';
+}
+
+.standard .attach:after {
+  content: '📎';
+}
+
+.standard .backspace:after {
+  content: '⌫';
+}
+
+.standard .ban:after {
+  content: '🚫';
+}
+
+.standard .barchart:after {
+  content: '📊';
+}
+
+.standard .battery:after {
+  content: '🔋';
+}
+
+.standard .book:after {
+  content: '📕';
+}
+
+.standard .bookmark:after {
+  content: '🔖';
+}
+
+.standard .box:after {
+  content: '📦';
+}
+
+.standard .briefcase:after {
+  content: '💼';
+}
+
+.standard .buildings:after {
+  content: '🏢';
+}
+
+.standard .calendar:after {
+  content: '📅';
+}
+
+.standard .camera:after {
+  content: '📷';
+}
+
+.standard .cart:after {
+  content: '';
+}
+
+.standard .caution:after {
+  content: '⛔';
+}
+
+.standard .cell:after {
+  content: '📱';
+}
+
+.standard .chat:after {
+  content: '💬';
+}
+
+.standard .check:after {
+  content: '✓';
+}
+
+.standard .checkcalendar:after {
+  content: '';
+}
+
+.standard .clock:after {
+  content: '⏲';
+}
+
+.standard .cloud:after {
+  content: '☁';
+}
+
+.standard .columns:after {
+  content: '';
+}
+
+.standard .compass:after {
+  content: '';
+}
+
+.standard .compose:after {
+  content: '📝';
+}
+
+.standard .connection:after {
+  content: '';
+}
+
+.standard .contract:after {
+  content: '';
+}
+
+.standard .creditcard:after {
+  content: '💳';
+}
+
+.standard .crop:after {
+  content: '';
+}
+
+.standard .crosshair:after {
+  content: '⌖';
+}
+
+.standard .cursor:after {
+  content: '';
+}
+
+.standard .dashboard:after {
+  content: '';
+}
+
+.standard .database:after {
+  content: '';
+}
+
+.standard .delete:after {
+  content: '␡';
+}
+
+.standard .deletecalendar:after {
+  content: '';
+}
+
+.standard .desktop:after {
+  content: '💻';
+}
+
+.standard .directleft:after {
+  content: '◃';
+}
+
+.standard .directright:after {
+  content: '▹';
+}
+
+.standard .directup:after {
+  content: '▴';
+}
+
+.standard .dislike:after {
+  content: '👎';
+}
+
+.standard .dollarsign:after {
+  content: '💲';
+}
+
+.standard .down:after {
+  content: '⬇';
+}
+
+.standard .downleft:after {
+  content: '⬋';
+}
+
+.standard .download:after {
+  content: '';
+}
+
+.standard .downloadcloud:after {
+  content: '';
+}
+
+.standard .downright:after {
+  content: '⬊';
+}
+
+.standard .dropdown:after {
+  content: '▾';
+}
+
+.standard .droplet:after {
+  content: '💧';
+}
+
+.standard .eject:after {
+  content: '⏏';
+}
+
+.standard .ellipsis:after {
+  content: '…';
+}
+
+.standard .ellipsischat:after {
+  content: '';
+}
+
+.standard .emptybattery:after {
+  content: '';
+}
+
+.standard .erase:after {
+  content: '✐';
+}
+
+.standard .expand:after {
+  content: '⤢';
+}
+
+.standard .facetime:after {
+  content: '';
+}
+
+.standard .fastforward:after {
+  content: '⏩';
+}
+
+.standard .fax:after {
+  content: '📠';
+}
+
+.standard .femaleuser:after {
+  content: '👧';
+}
+
+.standard .file:after {
+  content: '📄';
+}
+
+.standard .fill:after {
+  content: '';
+}
+
+.standard .filter:after {
+  content: '';
+}
+
+.standard .flag:after {
+  content: '⚑';
+}
+
+.standard .flask:after {
+  content: '';
+}
+
+.standard .folder:after {
+  content: '📁';
+}
+
+.standard .font:after {
+  content: '';
+}
+
+.standard .fork:after {
+  content: '';
+}
+
+.standard .globe:after {
+  content: '🌎';
+}
+
+.standard .grid:after {
+  content: '';
+}
+
+.standard .halfheart:after {
+  content: '';
+}
+
+.standard .halfstar:after {
+  content: '';
+}
+
+.standard .hdd:after {
+  content: '';
+}
+
+.standard .heart:after {
+  content: '♥';
+}
+
+.standard .help:after {
+  content: '❓';
+}
+
+.standard .highbattery:after {
+  content: '';
+}
+
+.standard .highvolume:after {
+  content: '🔊';
+}
+
+.standard .home:after {
+  content: '⌂';
+}
+
+.standard .hyphen:after {
+  content: '-';
+}
+
+.standard .inbox:after {
+  content: '📥';
+}
+
+.standard .info:after {
+  content: 'ℹ';
+}
+
+.standard .key:after {
+  content: '🔑';
+}
+
+.standard .laptop:after {
+  content: '';
+}
+
+.standard .layers:after {
+  content: '';
+}
+
+.standard .layout:after {
+  content: '';
+}
+
+.standard .left:after {
+  content: '⬅';
+}
+
+.standard .lightbulb:after {
+  content: '💡';
+}
+
+.social-circle .like:after, .social .like:after, .standard .like:after {
+  content: '👍';
+}
+
+.standard .link:after {
+  content: '🔗';
+}
+
+.standard .list:after {
+  content: '';
+}
+
+.standard .loading:after {
+  content: '';
+}
+
+.standard .location:after {
+  content: '';
+}
+
+.standard .lock:after {
+  content: '🔒';
+}
+
+.standard .logout:after {
+  content: '';
+}
+
+.standard .lowbattery:after {
+  content: '';
+}
+
+.standard .lowvolume:after {
+  content: '🔉';
+}
+
+.social-circle .mail:after, .social .mail:after, .standard .mail:after {
+  content: '✉';
+}
+
+.standard .map:after {
+  content: '';
+}
+
+.standard .mediumbattery:after {
+  content: '';
+}
+
+.standard .merge:after {
+  content: '';
+}
+
+.standard .mic:after {
+  content: '🎤';
+}
+
+.standard .move:after {
+  content: '';
+}
+
+.standard .music:after {
+  content: '♫';
+}
+
+.standard .navigate:after {
+  content: '';
+}
+
+.standard .navigatedown:after {
+  content: '';
+}
+
+.standard .navigateleft:after {
+  content: '◅';
+}
+
+.standard .navigateright:after {
+  content: '▻';
+}
+
+.standard .navigateup:after {
+  content: '';
+}
+
+.standard .newspaper:after {
+  content: '📰';
+}
+
+.standard .notebook:after {
+  content: '📓';
+}
+
+.standard .notifications:after {
+  content: '🔔';
+}
+
+.standard .notificationsdisabled:after {
+  content: '🔕';
+}
+
+.standard .openbook:after {
+  content: '📖';
+}
+
+.standard .pause:after {
+  content: '';
+}
+
+.standard .phone:after {
+  content: '📞';
+}
+
+.standard .phonedisabled:after {
+  content: '';
+}
+
+.standard .picture:after {
+  content: '🌄';
+}
+
+.standard .piechart:after {
+  content: '';
+}
+
+.standard .pin:after {
+  content: '📍';
+}
+
+.standard .play:after {
+  content: '▶';
+}
+
+.standard .plus:after {
+  content: '+';
+}
+
+.standard .print:after {
+  content: '⎙';
+}
+
+.standard .quote:after {
+  content: '“';
+}
+
+.standard .record:after {
+  content: '●';
+}
+
+.standard .redirect:after {
+  content: '↪';
+}
+
+.standard .refresh:after {
+  content: '↻';
+}
+
+.standard .removecalendar:after {
+  content: '';
+}
+
+.standard .repeat:after {
+  content: '🔁';
+}
+
+.standard .replay:after {
+  content: '↺';
+}
+
+.standard .reply:after {
+  content: '↩';
+}
+
+.standard .retweet:after {
+  content: '';
+}
+
+.standard .rewind:after {
+  content: '⏪';
+}
+
+.standard .right:after {
+  content: '➡';
+}
+
+.standard .rows:after {
+  content: '';
+}
+
+.social-circle .rss:after, .social .rss:after, .standard .rss:after {
+  content: '';
+}
+
+.standard .sample:after {
+  content: '';
+}
+
+.standard .search:after {
+  content: '🔎';
+}
+
+.standard .send:after {
+  content: '';
+}
+
+.standard .settings:after {
+  content: '⚙';
+}
+
+.standard .shuffle:after {
+  content: '🔀';
+}
+
+.standard .signpost:after {
+  content: '';
+}
+
+.standard .skipback:after {
+  content: '⏮';
+}
+
+.standard .skipforward:after {
+  content: '⏭';
+}
+
+.standard .star:after {
+  content: '⋆';
+}
+
+.standard .stop:after {
+  content: '■';
+}
+
+.standard .stopwatch:after {
+  content: '⏱';
+}
+
+.standard .stroke:after {
+  content: '';
+}
+
+.standard .sync:after {
+  content: '';
+}
+
+.standard .tablet:after {
+  content: '';
+}
+
+.standard .tag:after {
+  content: '';
+}
+
+.standard .target:after {
+  content: '◎';
+}
+
+.standard .text:after {
+  content: '';
+}
+
+.standard .thumbnails:after {
+  content: '';
+}
+
+.standard .transfer:after {
+  content: '⇆';
+}
+
+.standard .trash:after {
+  content: '';
+}
+
+.standard .unlock:after {
+  content: '🔓';
+}
+
+.standard .up:after {
+  content: '⬆';
+}
+
+.standard .upleft:after {
+  content: '⬉';
+}
+
+.standard .upload:after {
+  content: '';
+}
+
+.standard .uploadcloud:after {
+  content: '';
+}
+
+.standard .upright:after {
+  content: '⬈';
+}
+
+.standard .user:after {
+  content: '👤';
+}
+
+.standard .users:after {
+  content: '👥';
+}
+
+.standard .video:after {
+  content: '📹';
+}
+
+.standard .view:after {
+  content: '👀';
+}
+
+.standard .volume:after {
+  content: '🔈';
+}
+
+.standard .warehouse:after {
+  content: '';
+}
+
+.standard .wifi:after {
+  content: '';
+}
+
+.standard .write:after {
+  content: '✎';
+}
+
+.standard .writingdisabled:after {
+  content: '';
+}
+
+.standard .zoomin:after {
+  content: '';
+}
+
+.standard .zoomout:after {
+  content: '';
+}
+
+@font-face {
+  font-family: "SSSocial";
+  src: url("../fonts/ss-social/webfonts/ss-social-regular.eot");
+  src: url("../fonts/ss-social/webfonts/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-social/webfonts/ss-social-regular.woff") format("woff"), url("../fonts/ss-social/webfonts/ss-social-regular.ttf") format("truetype"), url("../fonts/ss-social/webfonts/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.social-circle .android:after, .social .android:after, .social-circle .appdotnet:after, .social .appdotnet:after, .social-circle .apple:after, .social .apple:after, .social-circle .behance:after, .social .behance:after, .social-circle .blackberry:after, .social .blackberry:after, .social-circle .blogger:after, .social .blogger:after, .social-circle .dribbble:after, .social .dribbble:after, .social-circle .dropbox:after, .social .dropbox:after, .social-circle .facebook:after, .social .facebook:after, .social-circle .fivehundredpx:after, .social .fivehundredpx:after, .social-circle .flickr:after, .social .flickr:after, .social-circle .foursquare:after, .social .foursquare:after, .social-circle .github:after, .social .github:after, .social-circle .googleplus:after, .social .googleplus:after, .social-circle .instagram:after, .social .instagram:after, .social-circle .kickstarter:after, .social .kickstarter:after, .social-circle .lastfm:after, .social .lastfm:after, .social-circle .like:after, .social .like:after, .standard .like:after, .social-circle .linkedin:after, .social .linkedin:after, .social-circle .mail:after, .social .mail:after, .standard .mail:after, .social-circle .microsoft:after, .social .microsoft:after, .social-circle .octocat:after, .social .octocat:after, .social-circle .paypal:after, .social .paypal:after, .social-circle .pinboard:after, .social .pinboard:after, .social-circle .pinterest:after, .social .pinterest:after, .social-circle .posterous:after, .social .posterous:after, .social-circle .rdio:after, .social .rdio:after, .social-circle .readmill:after, .social .readmill:after, .social-circle .reddit:after, .social .reddit:after, .social-circle .rss:after, .social .rss:after, .standard .rss:after, .social-circle .share:after, .social .share:after, .social-circle .skype:after, .social .skype:after, .social-circle .soundcloud:after, .social .soundcloud:after, .social-circle .spotify:after, .social .spotify:after, .social-circle .stackoverflow:after, .social .stackoverflow:after, .social-circle .svpply:after, .social .svpply:after, .social-circle .tumblr:after, .social .tumblr:after, .social-circle .twitter:after, .social .twitter:after, .social-circle .vimeo:after, .social .vimeo:after, .social-circle .windows:after, .social .windows:after, .social-circle .wordpress:after, .social .wordpress:after, .social-circle .yelp:after, .social .yelp:after, .social-circle .youtube:after, .social .youtube:after, .social-circle .zerply:after, .social .zerply:after, .social-circle i, .social i {
+  font-family: "SSSocial";
+}
+
+.social-circle .android:after, .social .android:after {
+  content: '';
+}
+
+.social-circle .appdotnet:after, .social .appdotnet:after {
+  content: '';
+}
+
+.social-circle .apple:after, .social .apple:after {
+  content: '';
+}
+
+.social-circle .behance:after, .social .behance:after {
+  content: '';
+}
+
+.social-circle .blackberry:after, .social .blackberry:after {
+  content: '';
+}
+
+.social-circle .blogger:after, .social .blogger:after {
+  content: '';
+}
+
+.social-circle .dribbble:after, .social .dribbble:after {
+  content: '';
+}
+
+.social-circle .dropbox:after, .social .dropbox:after {
+  content: '';
+}
+
+.social-circle .facebook:after, .social .facebook:after {
+  content: '';
+}
+
+.social-circle .fivehundredpx:after, .social .fivehundredpx:after {
+  content: '';
+}
+
+.social-circle .flickr:after, .social .flickr:after {
+  content: '';
+}
+
+.social-circle .foursquare:after, .social .foursquare:after {
+  content: '';
+}
+
+.social-circle .github:after, .social .github:after {
+  content: '';
+}
+
+.social-circle .googleplus:after, .social .googleplus:after {
+  content: '';
+}
+
+.social-circle .instagram:after, .social .instagram:after {
+  content: '';
+}
+
+.social-circle .kickstarter:after, .social .kickstarter:after {
+  content: '';
+}
+
+.social-circle .lastfm:after, .social .lastfm:after {
+  content: '';
+}
+
+.social-circle .like:after, .social .like:after, .standard .like:after {
+  content: '👍';
+}
+
+.social-circle .linkedin:after, .social .linkedin:after {
+  content: '';
+}
+
+.social-circle .mail:after, .social .mail:after, .standard .mail:after {
+  content: '✉';
+}
+
+.social-circle .microsoft:after, .social .microsoft:after {
+  content: '';
+}
+
+.social-circle .octocat:after, .social .octocat:after {
+  content: '';
+}
+
+.social-circle .paypal:after, .social .paypal:after {
+  content: '';
+}
+
+.social-circle .pinboard:after, .social .pinboard:after {
+  content: '';
+}
+
+.social-circle .pinterest:after, .social .pinterest:after {
+  content: '';
+}
+
+.social-circle .posterous:after, .social .posterous:after {
+  content: '';
+}
+
+.social-circle .rdio:after, .social .rdio:after {
+  content: '';
+}
+
+.social-circle .readmill:after, .social .readmill:after {
+  content: '';
+}
+
+.social-circle .reddit:after, .social .reddit:after {
+  content: '';
+}
+
+.social-circle .rss:after, .social .rss:after, .standard .rss:after {
+  content: '';
+}
+
+.social-circle .share:after, .social .share:after {
+  content: '';
+}
+
+.social-circle .skype:after, .social .skype:after {
+  content: '';
+}
+
+.social-circle .soundcloud:after, .social .soundcloud:after {
+  content: '';
+}
+
+.social-circle .spotify:after, .social .spotify:after {
+  content: '';
+}
+
+.social-circle .stackoverflow:after, .social .stackoverflow:after {
+  content: '';
+}
+
+.social-circle .svpply:after, .social .svpply:after {
+  content: '';
+}
+
+.social-circle .tumblr:after, .social .tumblr:after {
+  content: '';
+}
+
+.social-circle .twitter:after, .social .twitter:after {
+  content: '';
+}
+
+.social-circle .vimeo:after, .social .vimeo:after {
+  content: '';
+}
+
+.social-circle .windows:after, .social .windows:after {
+  content: '';
+}
+
+.social-circle .wordpress:after, .social .wordpress:after {
+  content: '';
+}
+
+.social-circle .yelp:after, .social .yelp:after {
+  content: '';
+}
+
+.social-circle .youtube:after, .social .youtube:after {
+  content: '';
+}
+
+.social-circle .zerply:after, .social .zerply:after {
+  content: '';
+}
+
+@font-face {
+  font-family: "SSSocial";
+  src: url("../fonts/ss-social/webfonts/ss-social-circle.eot");
+  src: url("../fonts/ss-social/webfonts/ss-social-circle.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-social/webfonts/ss-social-circle.woff") format("woff"), url("../fonts/ss-social/webfonts/ss-social-circle.ttf") format("truetype"), url("../fonts/ss-social/webfonts/ss-social-circle.svg#SSSocialCircle") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.social-circle .android:after, .social-circle .appdotnet:after, .social-circle .apple:after, .social-circle .behance:after, .social-circle .blackberry:after, .social-circle .blogger:after, .social-circle .dribbble:after, .social-circle .dropbox:after, .social-circle .facebook:after, .social-circle .fivehundredpx:after, .social-circle .flickr:after, .social-circle .foursquare:after, .social-circle .github:after, .social-circle .googleplus:after, .social-circle .instagram:after, .social-circle .kickstarter:after, .social-circle .lastfm:after, .social-circle .like:after, .social-circle .linkedin:after, .social-circle .mail:after, .social-circle .microsoft:after, .social-circle .octocat:after, .social-circle .paypal:after, .social-circle .pinboard:after, .social-circle .pinterest:after, .social-circle .posterous:after, .social-circle .rdio:after, .social-circle .readmill:after, .social-circle .reddit:after, .social-circle .rss:after, .social-circle .share:after, .social-circle .skype:after, .social-circle .soundcloud:after, .social-circle .spotify:after, .social-circle .stackoverflow:after, .social-circle .svpply:after, .social-circle .tumblr:after, .social-circle .twitter:after, .social-circle .vimeo:after, .social-circle .windows:after, .social-circle .wordpress:after, .social-circle .yelp:after, .social-circle .youtube:after, .social-circle .zerply:after, .social-circle i {
+  font-weight: bold;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section:before,
+section:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+section:after {
+  clear: both;
+}
+
+section {
+  zoom: 1;
+}
+
+body {
+  color: #333;
+  font: 100%/1.5 sans-serif;
+  margin: 0;
+  padding: 0 20px;
+}
+
+h1, h2 {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+header {
+  text-align: right;
+}
+
+h1 {
+  background: #333;
+  color: #fff;
+  margin-top: 0;
+  margin-right: -20px;
+}
+
+h2 {
+  background: #268bd2;
+  color: #fff;
+  margin-left: -20px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #268bd2;
+}
+
+pre, code {
+  color: #585858;
+  font-family: "Monaco", "Menlo", monospace, serif;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+small {
+  color: #585858;
+}
+
+.index {
+  font-size: 110%;
+}
+
+.note {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.red {
+  background: #dc322f;
+}
+
+.green {
+  background: #2aa198;
+}
+
+ul.icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.icons li {
+  border: solid 1px #ececec;
+  display: block;
+  list-style: none;
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+  text-align: center;
+  min-height: 150px;
+}
+ul.icons h3 {
+  color: #999;
+  display: block;
+  font: normal 1em/2 "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+  margin: -10px 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+ul.icons code {
+  display: block;
+}
+ul.icons i {
+  display: inline-block;
+  font-size: 50px;
+}
+ul.icons i:after {
+  margin-left: 20px;
+}
+.social ul.icons i {
+  display: block;
+}
+
+@media screen and (min-width: 769px) {
+  ul.icons li {
+    width: 32%;
+    float: left;
+    margin: 0 1% 1% 0;
+  }
+}
+@media screen and (min-width: 980px) {
+  ul.icons li {
+    width: 24%;
+  }
+  ul.icons i {
+    font-size: 50px;
+  }
+}

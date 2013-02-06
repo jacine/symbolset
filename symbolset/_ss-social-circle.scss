@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "SSSocial";
+  src: url('../fonts/ss-social/webfonts/ss-social-circle.eot');
+  src: url('../fonts/ss-social/webfonts/ss-social-circle.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ss-social/webfonts/ss-social-circle.woff') format('woff'),
+       url('../fonts/ss-social/webfonts/ss-social-circle.ttf') format('truetype'),
+       url('../fonts/ss-social/webfonts/ss-social-circle.svg#SSSocialCircle') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+%ss-social-circle {
+  @extend %ss-social;
+  font-weight: bold;
+}
+
+%ss-android-circle { @extend %ss-android; @extend %ss-social-circle; }
+%ss-appdotnet-circle { @extend %ss-appdotnet; @extend %ss-social-circle; }
+%ss-apple-circle { @extend %ss-apple; @extend %ss-social-circle; }
+%ss-behance-circle { @extend %ss-behance; @extend %ss-social-circle; }
+%ss-blackberry-circle { @extend %ss-blackberry; @extend %ss-social-circle; }
+%ss-blogger-circle { @extend %ss-blogger; @extend %ss-social-circle; }
+%ss-dribbble-circle { @extend %ss-dribbble; @extend %ss-social-circle; }
+%ss-dropbox-circle { @extend %ss-dropbox; @extend %ss-social-circle; }
+%ss-facebook-circle { @extend %ss-facebook; @extend %ss-social-circle; }
+%ss-fivehundredpx-circle { @extend %ss-fivehundredpx; @extend %ss-social-circle; }
+%ss-flickr-circle { @extend %ss-flickr; @extend %ss-social-circle; }
+%ss-foursquare-circle { @extend %ss-foursquare; @extend %ss-social-circle; }
+%ss-github-circle { @extend %ss-github; @extend %ss-social-circle; }
+%ss-googleplus-circle { @extend %ss-googleplus; @extend %ss-social-circle; }
+%ss-instagram-circle { @extend %ss-instagram; @extend %ss-social-circle; }
+%ss-kickstarter-circle { @extend %ss-kickstarter; @extend %ss-social-circle; }
+%ss-lastfm-circle { @extend %ss-lastfm; @extend %ss-social-circle; }
+%ss-like-circle { @extend %ss-like; @extend %ss-social-circle; }
+%ss-linkedin-circle { @extend %ss-linkedin; @extend %ss-social-circle; }
+%ss-mail-circle { @extend %ss-mail; @extend %ss-social-circle; }
+%ss-microsoft-circle { @extend %ss-microsoft; @extend %ss-social-circle; }
+%ss-octocat-circle { @extend %ss-octocat; @extend %ss-social-circle; }
+%ss-paypal-circle { @extend %ss-paypal; @extend %ss-social-circle; }
+%ss-pinboard-circle { @extend %ss-pinboard; @extend %ss-social-circle; }
+%ss-pinterest-circle { @extend %ss-pinterest; @extend %ss-social-circle; }
+%ss-posterous-circle { @extend %ss-posterous; @extend %ss-social-circle; }
+%ss-rdio-circle { @extend %ss-rdio; @extend %ss-social-circle; }
+%ss-readmill-circle { @extend %ss-readmill; @extend %ss-social-circle; }
+%ss-reddit-circle { @extend %ss-reddit; @extend %ss-social-circle; }
+%ss-rss-circle { @extend %ss-rss; @extend %ss-social-circle; }
+%ss-share-circle { @extend %ss-share; @extend %ss-social-circle; }
+%ss-skype-circle { @extend %ss-skype; @extend %ss-social-circle; }
+%ss-soundcloud-circle { @extend %ss-soundcloud; @extend %ss-social-circle; }
+%ss-spotify-circle { @extend %ss-spotify; @extend %ss-social-circle; }
+%ss-stackoverflow-circle { @extend %ss-stackoverflow; @extend %ss-social-circle; }
+%ss-svpply-circle { @extend %ss-svpply; @extend %ss-social-circle; }
+%ss-tumblr-circle { @extend %ss-tumblr; @extend %ss-social-circle; }
+%ss-twitter-circle { @extend %ss-twitter; @extend %ss-social-circle; }
+%ss-vimeo-circle { @extend %ss-vimeo; @extend %ss-social-circle; }
+%ss-windows-circle { @extend %ss-windows; @extend %ss-social-circle; }
+%ss-wordpress-circle { @extend %ss-wordpress; @extend %ss-social-circle; }
+%ss-yelp-circle { @extend %ss-yelp; @extend %ss-social-circle; }
+%ss-youtube-circle { @extend %ss-youtube; @extend %ss-social-circle; }
+%ss-zerply-circle { @extend %ss-zerply; @extend %ss-social-circle; }

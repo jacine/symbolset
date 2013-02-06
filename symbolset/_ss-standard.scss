@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "SSStandard";
+  src: url('../fonts/ss-standard/webfonts/ss-standard.eot');
+  src: url('../fonts/ss-standard/webfonts/ss-standard.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ss-standard/webfonts/ss-standard.woff') format('woff'),
+       url('../fonts/ss-standard/webfonts/ss-standard.ttf')  format('truetype'),
+       url('../fonts/ss-standard/webfonts/ss-standard.svg#SSStandard') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+%ss-standard {
+  @extend %ss-icon;
+  font-family: "SSStandard";
+}
+
+%ss-action { @extend %ss-standard; content: ''; }
+%ss-addcalendar { @extend %ss-standard; content: ''; }
+%ss-airplay { @extend %ss-standard; content: ''; }
+%ss-alert { @extend %ss-standard; content: '⚠'; }
+%ss-attach { @extend %ss-standard; content: '📎'; }
+%ss-backspace { @extend %ss-standard; content: '⌫'; }
+%ss-ban { @extend %ss-standard; content: '🚫'; }
+%ss-barchart { @extend %ss-standard; content: '📊'; }
+%ss-battery { @extend %ss-standard; content: '🔋'; }
+%ss-book { @extend %ss-standard; content: '📕'; }
+%ss-bookmark { @extend %ss-standard; content: '🔖'; }
+%ss-box { @extend %ss-standard; content: '📦'; }
+%ss-briefcase { @extend %ss-standard; content: '💼'; }
+%ss-buildings { @extend %ss-standard; content: '🏢'; }
+%ss-calendar { @extend %ss-standard; content: '📅'; }
+%ss-camera { @extend %ss-standard; content: '📷'; }
+%ss-cart { @extend %ss-standard; content: ''; }
+%ss-caution { @extend %ss-standard; content: '⛔'; }
+%ss-cell { @extend %ss-standard; content: '📱'; }
+%ss-chat { @extend %ss-standard; content: '💬'; }
+%ss-check { @extend %ss-standard; content: '✓'; }
+%ss-checkcalendar { @extend %ss-standard; content: ''; }
+%ss-clock { @extend %ss-standard; content: '⏲'; }
+%ss-cloud { @extend %ss-standard; content: '☁'; }
+%ss-columns { @extend %ss-standard; content: ''; }
+%ss-compass { @extend %ss-standard; content: ''; }
+%ss-compose { @extend %ss-standard; content: '📝'; }
+%ss-connection { @extend %ss-standard; content: ''; }
+%ss-contract { @extend %ss-standard; content: ''; }
+%ss-creditcard { @extend %ss-standard; content: '💳'; }
+%ss-crop { @extend %ss-standard; content: ''; }
+%ss-crosshair { @extend %ss-standard; content: '⌖'; }
+%ss-cursor { @extend %ss-standard; content: ''; }
+%ss-dashboard { @extend %ss-standard; content: ''; }
+%ss-database { @extend %ss-standard; content: ''; }
+%ss-delete { @extend %ss-standard; content: '␡'; }
+%ss-deletecalendar { @extend %ss-standard; content: ''; }
+%ss-desktop { @extend %ss-standard; content: '💻'; }
+%ss-directleft { @extend %ss-standard; content: '◃'; }
+%ss-directright { @extend %ss-standard; content: '▹'; }
+%ss-directup { @extend %ss-standard; content: '▴'; }
+%ss-dislike { @extend %ss-standard; content: '👎'; }
+%ss-dollarsign { @extend %ss-standard; content: '💲'; }
+%ss-down { @extend %ss-standard; content: '⬇'; }
+%ss-downleft { @extend %ss-standard; content: '⬋'; }
+%ss-download { @extend %ss-standard; content: ''; }
+%ss-downloadcloud { @extend %ss-standard; content: ''; }
+%ss-downright { @extend %ss-standard; content: '⬊'; }
+%ss-dropdown { @extend %ss-standard; content: '▾'; }
+%ss-droplet { @extend %ss-standard; content: '💧'; }
+%ss-eject { @extend %ss-standard; content: '⏏'; }
+%ss-ellipsis { @extend %ss-standard; content: '…'; }
+%ss-ellipsischat { @extend %ss-standard; content: ''; }
+%ss-emptybattery { @extend %ss-standard; content: ''; }
+%ss-erase { @extend %ss-standard; content: '✐'; }
+%ss-expand { @extend %ss-standard; content: '⤢'; }
+%ss-facetime { @extend %ss-standard; content: ''; }
+%ss-fastforward { @extend %ss-standard; content: '⏩'; }
+%ss-fax { @extend %ss-standard; content: '📠'; }
+%ss-femaleuser { @extend %ss-standard; content: '👧'; }
+%ss-file { @extend %ss-standard; content: '📄'; }
+%ss-fill { @extend %ss-standard; content: ''; }
+%ss-filter { @extend %ss-standard; content: ''; }
+%ss-flag { @extend %ss-standard; content: '⚑'; }
+%ss-flask { @extend %ss-standard; content: ''; }
+%ss-folder { @extend %ss-standard; content: '📁'; }
+%ss-font { @extend %ss-standard; content: ''; }
+%ss-fork { @extend %ss-standard; content: ''; }
+%ss-globe { @extend %ss-standard; content: '🌎'; }
+%ss-grid { @extend %ss-standard; content: ''; }
+%ss-halfheart { @extend %ss-standard; content: ''; }
+%ss-halfstar { @extend %ss-standard; content: ''; }
+%ss-hdd { @extend %ss-standard; content: ''; }
+%ss-heart { @extend %ss-standard; content: '♥'; }
+%ss-help { @extend %ss-standard; content: '❓'; }
+%ss-highbattery { @extend %ss-standard; content: ''; }
+%ss-highvolume { @extend %ss-standard; content: '🔊'; }
+%ss-home { @extend %ss-standard; content: '⌂'; }
+%ss-hyphen { @extend %ss-standard; content: '-'; }
+%ss-inbox { @extend %ss-standard; content: '📥'; }
+%ss-info { @extend %ss-standard; content: 'ℹ'; }
+%ss-key { @extend %ss-standard; content: '🔑'; }
+%ss-laptop { @extend %ss-standard; content: ''; }
+%ss-layers { @extend %ss-standard; content: ''; }
+%ss-layout { @extend %ss-standard; content: ''; }
+%ss-left { @extend %ss-standard; content: '⬅'; }
+%ss-lightbulb { @extend %ss-standard; content: '💡'; }
+%ss-like { @extend %ss-standard; content: '👍'; }
+%ss-link { @extend %ss-standard; content: '🔗'; }
+%ss-list { @extend %ss-standard; content: ''; }
+%ss-loading { @extend %ss-standard; content: ''; }
+%ss-location { @extend %ss-standard; content: ''; }
+%ss-lock { @extend %ss-standard; content: '🔒'; }
+%ss-logout { @extend %ss-standard; content: ''; }
+%ss-lowbattery { @extend %ss-standard; content: ''; }
+%ss-lowvolume { @extend %ss-standard; content: '🔉'; }
+%ss-mail { @extend %ss-standard; content: '✉'; }
+%ss-map { @extend %ss-standard; content: ''; }
+%ss-mediumbattery { @extend %ss-standard; content: ''; }
+%ss-merge { @extend %ss-standard; content: ''; }
+%ss-mic { @extend %ss-standard; content: '🎤'; }
+%ss-move { @extend %ss-standard; content: ''; }
+%ss-music { @extend %ss-standard; content: '♫'; }
+%ss-navigate { @extend %ss-standard; content: ''; }
+%ss-navigatedown { @extend %ss-standard; content: ''; }
+%ss-navigateleft { @extend %ss-standard; content: '◅'; }
+%ss-navigateright { @extend %ss-standard; content: '▻'; }
+%ss-navigateup { @extend %ss-standard; content: ''; }
+%ss-newspaper { @extend %ss-standard; content: '📰'; }
+%ss-notebook { @extend %ss-standard; content: '📓'; }
+%ss-notifications { @extend %ss-standard; content: '🔔'; }
+%ss-notificationsdisabled { @extend %ss-standard; content: '🔕'; }
+%ss-openbook { @extend %ss-standard; content: '📖'; }
+%ss-pause { @extend %ss-standard; content: ''; }
+%ss-phone { @extend %ss-standard; content: '📞'; }
+%ss-phonedisabled { @extend %ss-standard; content: ''; }
+%ss-picture { @extend %ss-standard; content: '🌄'; }
+%ss-piechart { @extend %ss-standard; content: ''; }
+%ss-pin { @extend %ss-standard; content: '📍'; }
+%ss-play { @extend %ss-standard; content: '▶'; }
+%ss-plus { @extend %ss-standard; content: '+'; }
+%ss-print { @extend %ss-standard; content: '⎙'; }
+%ss-quote { @extend %ss-standard; content: '“'; }
+%ss-record { @extend %ss-standard; content: '●'; }
+%ss-redirect { @extend %ss-standard; content: '↪'; }
+%ss-refresh { @extend %ss-standard; content: '↻'; }
+%ss-removecalendar { @extend %ss-standard; content: ''; }
+%ss-repeat { @extend %ss-standard; content: '🔁'; }
+%ss-replay { @extend %ss-standard; content: '↺'; }
+%ss-reply { @extend %ss-standard; content: '↩'; }
+%ss-retweet { @extend %ss-standard; content: ''; }
+%ss-rewind { @extend %ss-standard; content: '⏪'; }
+%ss-right { @extend %ss-standard; content: '➡'; }
+%ss-rows { @extend %ss-standard; content: ''; }
+%ss-rss { @extend %ss-standard; content: ''; }
+%ss-sample { @extend %ss-standard; content: ''; }
+%ss-search { @extend %ss-standard; content: '🔎'; }
+%ss-send { @extend %ss-standard; content: ''; }
+%ss-settings { @extend %ss-standard; content: '⚙'; }
+%ss-shuffle { @extend %ss-standard; content: '🔀'; }
+%ss-signpost { @extend %ss-standard; content: ''; }
+%ss-skipback { @extend %ss-standard; content: '⏮'; }
+%ss-skipforward { @extend %ss-standard; content: '⏭'; }
+%ss-star { @extend %ss-standard; content: '⋆'; }
+%ss-stop { @extend %ss-standard; content: '■'; }
+%ss-stopwatch { @extend %ss-standard; content: '⏱'; }
+%ss-stroke { @extend %ss-standard; content: ''; }
+%ss-sync { @extend %ss-standard; content: ''; }
+%ss-tablet { @extend %ss-standard; content: ''; }
+%ss-tag { @extend %ss-standard; content: ''; }
+%ss-target { @extend %ss-standard; content: '◎'; }
+%ss-text { @extend %ss-standard; content: ''; }
+%ss-thumbnails { @extend %ss-standard; content: ''; }
+%ss-transfer { @extend %ss-standard; content: '⇆'; }
+%ss-trash { @extend %ss-standard; content: ''; }
+%ss-unlock { @extend %ss-standard; content: '🔓'; }
+%ss-up { @extend %ss-standard; content: '⬆'; }
+%ss-upleft { @extend %ss-standard; content: '⬉'; }
+%ss-upload { @extend %ss-standard; content: ''; }
+%ss-uploadcloud { @extend %ss-standard; content: ''; }
+%ss-upright { @extend %ss-standard; content: '⬈'; }
+%ss-user { @extend %ss-standard; content: '👤'; }
+%ss-users { @extend %ss-standard; content: '👥'; }
+%ss-video { @extend %ss-standard; content: '📹'; }
+%ss-view { @extend %ss-standard; content: '👀'; }
+%ss-volume { @extend %ss-standard; content: '🔈'; }
+%ss-warehouse { @extend %ss-standard; content: ''; }
+%ss-wifi { @extend %ss-standard; content: ''; }
+%ss-write { @extend %ss-standard; content: '✎'; }
+%ss-writingdisabled { @extend %ss-standard; content: ''; }
+%ss-zoomin { @extend %ss-standard; content: ''; }
+%ss-zoomout { @extend %ss-standard; content: ''; }
