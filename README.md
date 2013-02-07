@@ -27,8 +27,8 @@ First, you must purchase the font sets you want to use from [https://symbolset.c
     @import "symbolset/symbolset";
 
     // Specify where the font files are located.
-    $ss-standard-directory: '../fonts/ss-standard/webfonts';
-    $ss-social-directory: '../fonts/ss-social/webfonts';
+    $ss-standard-directory: '../fonts/ss-standard/webfonts/';
+    $ss-social-directory: '../fonts/ss-social/webfonts/';
 
     // Import only the font sets you wish to use.
     @import "symbolset/ss-standard";
