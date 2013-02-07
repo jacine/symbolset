@@ -1,10 +1,10 @@
 @font-face {
   font-family: "SSSocial";
-  src: url('../fonts/ss-social/webfonts/ss-social-circle.eot');
-  src: url('../fonts/ss-social/webfonts/ss-social-circle.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/ss-social/webfonts/ss-social-circle.woff') format('woff'),
-       url('../fonts/ss-social/webfonts/ss-social-circle.ttf') format('truetype'),
-       url('../fonts/ss-social/webfonts/ss-social-circle.svg#SSSocialCircle') format('svg');
+  src: url('#{$ss-social-directory}ss-social-circle.eot');
+  src: url('#{$ss-social-directory}ss-social-circle.eot?#iefix') format('embedded-opentype'),
+       url('#{$ss-social-directory}ss-social-circle.woff') format('woff'),
+       url('#{$ss-social-directory}ss-social-circle.ttf') format('truetype'),
+       url('#{$ss-social-directory}ss-social-circle.svg#SSSocialCircle') format('svg');
   font-weight: bold;
   font-style: normal;
 }

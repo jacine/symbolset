@@ -1,5 +1,9 @@
 @import "symbolset/symbolset";
 
+@import "symbolset/ss-standard";
+@import "symbolset/ss-social";
+@import "symbolset/ss-social-circle";
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

@@ -27,12 +27,8 @@
   }
 }
 
-// Font Sets
+// Variables
 //------------------------------------------------------------------------------
 
-// - Only @import the sets you will actually use. Maintain the order that appears below.
-// - Modify the @font-face paths to match your project's setup.
-
-@import "symbolset/ss-standard";
-@import "symbolset/ss-social";
-@import "symbolset/ss-social-circle";
+$ss-standard-directory: '../fonts/ss-standard/webfonts/' !default;
+$ss-social-directory: '../fonts/ss-social/webfonts/' !default;

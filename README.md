@@ -13,19 +13,30 @@
 
 - [SS Social](http://symbolset.com/#social)
 - [SS Standard](http://symbolset.com/#standard)
+- [SS Pika](http://symbolset.com/#pika) (Coming Soon!)
+- [SS Symbolicons](http://symbolset.com/#symbolicons) (Coming Soon!)
 
 ## Usage
 
-1. Purchase the font sets you want to use from [https://symbolset.com](https://symbolset.com/) and place them in your project directory.
-2. Download <a href="https://github.com/jacine/Symbolset">Symbolset Sass</a> and place the partial in your <code>sass</code> or <code>scss</code> directory.
-3. Modify the `@font-face` paths at the top of each set to match your project's setup.
-4. Use `@import` to include the Symbolset partial in your stylesheet:
-    ```scss
-    @import "symbolset/symbolset";
-    ```
-5. Add icons to your CSS using `@extend`:
-    ```scss
+First, you must purchase the font sets you want to use from [https://symbolset.com](https://symbolset.com/) and place them in your project directory.
 
+1. Download <a href="https://github.com/jacine/symbolset">Symbolset Sass</a> and place the partial in your <code>sass</code> or <code>scss</code> directory.
+2. In your project's scss/sass stylesheet, include the following:
+    ```scss
+    // Import the base file.
+    @import "symbolset/symbolset";
+
+    // Specify where the font files are located.
+    $ss-standard-directory: '../fonts/ss-standard/webfonts';
+    $ss-social-directory: '../fonts/ss-social/webfonts';
+
+    // Import only the font sets you wish to use.
+    @import "symbolset/ss-standard";
+    @import "symbolset/ss-social";
+    @import "symbolset/ss-social-circle";
+    ```
+3. Add icons to your CSS using `@extend`:
+    ```scss
     // Use it with the selectors you have available, such as:
     .twitter:before { @extend %ss-twitter; }
     .twitter-circle:after { @extend %ss-twitter-circle; }
@@ -36,10 +47,3 @@
       @extend &ss-standard;
     }
     ```
-
-## Questions
-
-- **What about [SS Pika](http://symbolset.com/#pika) and [SS Symbolicons]((http://symbolset.com/#symbolicons))?** I plan to add these in the near future.
-- **Why didn't you use mixins?** It was written using Sass placeholders because they are one of the best things about Sass. When used properly, they can help reduce the CSS output, whereas using mixins liberally will have the opposite effect.
-- **Why didn't you use the @font-face Compass mixin?** I don't like it. It's not really intuitive, or foolproof in this situation because every project is structured differently. Either way, the person using this will need to modify the paths to the font files, so why add a dependency?
-- **Can you make a real gem?** If I could cleanly work out the font path issue (see above), I would consider it, but I'm not sure if that's possible.
