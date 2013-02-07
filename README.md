@@ -1,4 +1,3 @@
-
 # Symbolset Sass
 
 [Symbolset](http://symbolset.com/) is a beautiful collection of semantic symbol fonts. **Symbolset Sass** is a library of Sass [placeholder selectors](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#placeholder_selectors_)</a> that allow you to use Symbolset without having to follow the markup conventions it comes with. This is useful when:
@@ -44,6 +43,6 @@ First, you must purchase the font sets you want to use from [https://symbolset.c
 
     // Or, if you have the unicode characters in code:
     .ss-icon {
-      @extend &ss-standard;
+      @extend %ss-standard;
     }
     ```
