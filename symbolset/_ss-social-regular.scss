@@ -1,10 +1,10 @@
 @font-face {
   font-family: "SSSocial";
-  src: url('#{$ss-social-directory}ss-social-regular.eot');
-  src: url('#{$ss-social-directory}ss-social-regular.eot?#iefix') format('embedded-opentype'),
-       url('#{$ss-social-directory}ss-social-regular.woff') format('woff'),
-       url('#{$ss-social-directory}ss-social-regular.ttf') format('truetype'),
-       url('#{$ss-social-directory}ss-social-regular.svg#SSSocialRegular') format('svg');
+  src: url('#{$ss-social-regular-dir}ss-social-regular.eot');
+  src: url('#{$ss-social-regular-dir}ss-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('#{$ss-social-regular-dir}ss-social-regular.woff') format('woff'),
+       url('#{$ss-social-regular-dir}ss-social-regular.ttf') format('truetype'),
+       url('#{$ss-social-regular-dir}ss-social-regular.svg#SSSocialRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }

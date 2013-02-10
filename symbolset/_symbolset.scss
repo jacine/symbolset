@@ -10,11 +10,12 @@
 // Based on the structure of the Symbolset download.
 //------------------------------------------------------------------------------
 
-$ss-pika-directory: '../fonts/ss-pika/webfonts/' !default;
-$ss-social-directory: '../fonts/ss-social/webfonts/' !default;
-$ss-standard-directory: '../fonts/ss-standard/webfonts/' !default;
-$ss-symbolicons-block-directory: '../fonts/ss-symbolicons-block/webfonts/' !default;
-$ss-symbolicons-line-directory: '../fonts/ss-symbolicons-line/webfonts/' !default;
+$ss-pika-dir: '../fonts/ss-pika/webfonts/' !default;
+$ss-social-regular-dir: '../fonts/ss-social/webfonts/' !default;
+$ss-social-circle-dir: $ss-social-regular-dir !default;
+$ss-standard-dir: '../fonts/ss-standard/webfonts/' !default;
+$ss-symbolicons-block-dir: '../fonts/ss-symbolicons-block/webfonts/' !default;
+$ss-symbolicons-line-dir: '../fonts/ss-symbolicons-line/webfonts/' !default;
 
 
 // Default styles, applied to each icon.

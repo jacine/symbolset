@@ -1,10 +1,10 @@
 @font-face {
   font-family: "SSSymboliconsLine";
-  src: url('#{$ss-symbolicons-line-directory}ss-symbolicons-line.eot');
-  src: url('#{$ss-symbolicons-line-directory}ss-symbolicons-line.eot?#iefix') format('embedded-opentype'),
-       url('#{$ss-symbolicons-line-directory}ss-symbolicons-line.woff') format('woff'),
-       url('#{$ss-symbolicons-line-directory}ss-symbolicons-line.ttf')  format('truetype'),
-       url('#{$ss-symbolicons-line-directory}ss-symbolicons-line.svg#SSSymboliconsBlock') format('svg');
+  src: url('#{$ss-symbolicons-line-dir}ss-symbolicons-line.eot');
+  src: url('#{$ss-symbolicons-line-dir}ss-symbolicons-line.eot?#iefix') format('embedded-opentype'),
+       url('#{$ss-symbolicons-line-dir}ss-symbolicons-line.woff') format('woff'),
+       url('#{$ss-symbolicons-line-dir}ss-symbolicons-line.ttf')  format('truetype'),
+       url('#{$ss-symbolicons-line-dir}ss-symbolicons-line.svg#SSSymboliconsBlock') format('svg');
   font-weight: normal;
   font-style: normal;
 }
