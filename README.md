@@ -8,10 +8,10 @@
 
 ## Supported Sets
 
-- [SS Social](http://symbolset.com/#social) (regular and circle)
+- [SS Social](http://symbolset.com/#social)
 - [SS Standard](http://symbolset.com/#standard)
 - [SS Pika](http://symbolset.com/#pika)
-- [SS Symbolicons](http://symbolset.com/#symbolicons) (block and line)
+- [SS Symbolicons](http://symbolset.com/#symbolicons)
 
 ## Usage
 
