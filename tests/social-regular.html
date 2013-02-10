@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Social > Regular | Symbolset Sass</title>
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="cleartype" content="on">
+  <meta name="HandheldFriendly" content="True">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" href="css/test.css">
+  <link rel="stylesheet" href="css/social-regular.css">
+</head>
+<body>
+  <header>
+    <h1>Symbolset Sass</h1>
+  </header>
+
+   <nav role="navigation">
+    <ul>
+      <li><a href="index.html"><i>&#x2302;</i></a></li>
+      <li><a href="pika.html">Pika</a></li>
+      <li><a href="social-circle.html">Social Circle</a></li>
+      <li><a class="active" href="social-regular.html">Social Regular</a></li>
+      <li><a href="standard.html">Standard</a></li>
+      <li><a href="symbolicons-block.html">Symbolicons Block</a></li>
+      <li><a href="symbolicons-line.html">Symbolicons Line</a></li>
+    </ul>
+  </nav>
+
+  <details class="tests">
+    <summary>Test Information</summary>
+    <p>Each set included in this library is tested two ways:</p>
+    <ol>
+      <li><p>By applying the generic font family and icon styles to unicode characters that exist directly in the HTML:</p>
+        <pre>i { @extend %ss-standard-regular; }</pre>
+      </li>
+      <li><p>By applying the <code>%ss-ICON</code> via pseudo elements to custom selectors.</p>
+        <pre>
+  .android:before { @extend %ss-android; }
+  .appdotnet:after { @extend %ss-appdotnet; }
+  &hellip;
+</pre>
+      </li>
+    </ol>
+    <h3>I don't see the fonts!</h3>
+    <p>Well, of course you don't. You either: (a) don't have the font installed on your system, or (b) don't have the font installed in the directory the test css is looking for: <code>../fonts/ss-social/webfonts</code>. That being the case, you've probably got some 404 errors in your console. Anyway, this doesn't matter. It works if you follow the <a href="../README.md">usage instructions</a>.</p>
+  </details>
+
+  <section>
+    <h2 id="social">Social Regular</h2>
+    <ul class="icons">
+      <li>
+        <h3>Android</h3>
+        <i class="android">&#xF6F3;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6F3;</code>
+          <code class="sass">%ss-android</code>
+        </div>
+      </li>
+      <li>
+        <h3>App.net</h3>
+        <i class="appdotnet">&#xF614;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF614;</code>
+          <code class="sass">%ss-appdotnet</code>
+        </div>
+      </li>
+      <li>
+        <h3>Apple</h3>
+        <i class="apple">&#xF8FF;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF8FF;</code>
+          <code class="sass">%ss-apple</code>
+        </div>
+      </li>
+      <li>
+        <h3>Blackberry</h3>
+        <i class="blackberry">&#xF6F4;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6F4;</code>
+          <code class="sass">%ss-blackberry</code>
+        </div>
+      </li>
+      <li>
+        <h3>Behance</h3>
+        <i class="behance">&#xF661;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF661;</code>
+          <code class="sass">%ss-behance</code>
+        </div>
+      </li>
+      <li>
+        <h3>Blogger</h3>
+        <i class="blogger">&#xF622;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF622;</code>
+          <code class="sass">%ss-blogger</code>
+        </div>
+      </li>
+      <li>
+        <h3>Dribbble</h3>
+        <i class="dribbble">&#xF660;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF660;</code>
+          <code class="sass">%ss-dribbble</code>
+        </div>
+      </li>
+      <li>
+        <h3>Dropbox</h3>
+        <i class="dropbox">&#xF653;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF653;</code>
+          <code class="sass">%ss-dropbox</code>
+        </div>
+      </li>
+      <li>
+        <h3>Facebook</h3>
+        <i class="facebook">&#xF610;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF610;</code>
+          <code class="sass">%ss-facebook</code>
+        </div>
+      </li>
+      <li>
+        <h3>500px</h3>
+        <i class="fivehundredpx">&#xF642;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF642;</code>
+          <code class="sass">%ss-fivehundredpx</code>
+        </div>
+      </li>
+      <li>
+        <h3>Flickr</h3>
+        <i class="flickr">&#xF640;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF640;</code>
+          <code class="sass">%ss-flickr</code>
+        </div>
+      </li>
+      <li>
+        <h3>FourSquare</h3>
+        <i class="foursquare">&#xF690;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF690;</code>
+          <code class="sass">%ss-foursquare</code>
+        </div>
+      </li>
+      <li>
+        <h3>Github</h3>
+        <i class="github">&#xF670;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF670;</code>
+          <code class="sass">%ss-github</code>
+        </div>
+      </li>
+      <li>
+        <h3>Google+</h3>
+        <i class="googleplus">&#xF613;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF613;</code>
+          <code class="sass">%ss-googleplus</code>
+        </div>
+      </li>
+      <li>
+        <h3>Instagram</h3>
+        <i class="instagram">&#xF641;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF641;</code>
+          <code class="sass">%ss-instagram</code>
+        </div>
+      </li>
+      <li>
+        <h3>Kickstarter</h3>
+        <i class="kickstarter">&#xF681;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF681;</code>
+          <code class="sass">%ss-kickstarter</code>
+        </div>
+      </li>
+      <li>
+        <h3>Last.fm</h3>
+        <i class="lastfm">&#xF6B2;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6B2;</code>
+          <code class="sass">%ss-lastfm</code>
+        </div>
+      </li>
+      <li>
+        <h3>Like</h3>
+        <i class="like">&#x1F44D;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#x1F44D;</code>
+          <code class="sass">%ss-like</code>
+        </div>
+      </li>
+      <li>
+        <h3>LinkedIn</h3>
+        <i class="linkedin">&#xF612;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF612;</code>
+          <code class="sass">%ss-linkedin</code>
+        </div>
+      </li>
+      <li>
+        <h3>Mail</h3>
+        <i class="mail">&#x2709;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#x2709;</code>
+          <code class="sass">%ss-mail</code>
+        </div>
+      </li>
+      <li>
+        <h3>Microsoft</h3>
+        <i class="microsoft">&#xF6F1;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6F1;</code>
+          <code class="sass">%ss-microsoft</code>
+        </div>
+      </li>
+      <li>
+        <h3>Octocat</h3>
+        <i class="octocat">&#xF671;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF671;</code>
+          <code class="sass">%ss-octocat</code>
+        </div>
+      </li>
+      <li>
+        <h3>PayPal</h3>
+        <i class="paypal">&#xF680;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF680;</code>
+          <code class="sass">%ss-paypal</code>
+        </div>
+      </li>
+      <li>
+        <h3>Pinboard</h3>
+        <i class="pinboard">&#xF654;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF654;</code>
+          <code class="sass">%ss-pinboard</code>
+        </div>
+      </li>
+      <li>
+        <h3>Pinterest</h3>
+        <i class="pinterest">&#xF650;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF650;</code>
+          <code class="sass">%ss-pinterest</code>
+        </div>
+      </li>
+      <li>
+        <h3>Posterous</h3>
+        <i class="posterous">&#xF623;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF623;</code>
+          <code class="sass">%ss-posterous</code>
+        </div>
+      </li>
+      <li>
+        <h3>Rdio</h3>
+        <i class="rdio">&#xF6B0;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6B0;</code>
+          <code class="sass">%ss-rdio</code>
+        </div>
+      </li>
+      <li>
+        <h3>Readmill</h3>
+        <i class="readmill">&#xF652;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF652;</code>
+          <code class="sass">%ss-readmill</code>
+        </div>
+      </li>
+      <li>
+        <h3>Reddit</h3>
+        <i class="reddit">&#xF616;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF616;</code>
+          <code class="sass">%ss-reddit</code>
+        </div>
+      </li>
+      <li>
+        <h3>RSS</h3>
+        <i class="rss">&#xE310;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xE310;</code>
+          <code class="sass">%ss-rss</code>
+        </div>
+      </li>
+      <li>
+        <h3>Share</h3>
+        <i class="share">&#xF601;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF601;</code>
+          <code class="sass">%ss-share</code>
+        </div>
+      </li>
+      <li>
+        <h3>Skype</h3>
+        <i class="skype">&#xF6A0;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6A0;</code>
+          <code class="sass">%ss-skype</code>
+        </div>
+      </li>
+      <li>
+        <h3>Soundcloud</h3>
+        <i class="soundcloud">&#xF6B3;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6B3;</code>
+          <code class="sass">%ss-soundcloud</code>
+        </div>
+      </li>
+      <li>
+        <h3>Spotify</h3>
+        <i class="spotify">&#xF6B1;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6B1;</code>
+          <code class="sass">%ss-spotify</code>
+        </div>
+      </li>
+      <li>
+        <h3>Stack Overflow</h3>
+        <i class="stackoverflow">&#xF672;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF672;</code>
+          <code class="sass">%ss-stackoverflow</code>
+        </div>
+      </li>
+      <li>
+        <h3>Svpply</h3>
+        <i class="svpply">&#xF651;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF651;</code>
+          <code class="sass">%ss-svpply</code>
+        </div>
+      </li>
+      <li>
+        <h3>Tumblr</h3>
+        <i class="tumblr">&#xF620;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF620;</code>
+          <code class="sass">%ss-tumblr</code>
+        </div>
+      </li>
+      <li>
+        <h3>Twitter</h3>
+        <i class="twitter">&#xF611;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF611;</code>
+          <code class="sass">%ss-twitter</code>
+        </div>
+      </li>
+      <li>
+        <h3>Vimeo</h3>
+        <i class="vimeo">&#xF631;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF631;</code>
+          <code class="sass">%ss-vimeo</code>
+        </div>
+      </li>
+      <li>
+        <h3>Windows</h3>
+        <i class="windows">&#xF6F2;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF6F2;</code>
+          <code class="sass">%ss-windows</code>
+        </div>
+      </li>
+      <li>
+        <h3>WordPress</h3>
+        <i class="wordpress">&#xF621;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF621;</code>
+          <code class="sass">%ss-wordpress</code>
+        </div>
+      </li>
+      <li>
+        <h3>Yelp</h3>
+        <i class="yelp">&#xF691;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF691;</code>
+          <code class="sass">%ss-yelp</code>
+        </div>
+      </li>
+      <li>
+        <h3>YouTube</h3>
+        <i class="youtube">&#xF630;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF630;</code>
+          <code class="sass">%ss-youtube</code>
+        </div>
+      </li>
+      <li>
+        <h3>Zerply</h3>
+        <i class="zerply">&#xF615;</i>
+        <div class="meta">
+          <code class="unicode">&amp;#xF615;</code>
+          <code class="sass">%ss-zerply</code>
+        </div>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>

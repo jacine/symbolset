@@ -1,0 +1,182 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section, details, header {
+  zoom: 1;
+}
+section:before, details:before, header:before, section:after, details:after, header:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+section:after, details:after, header:after {
+  clear: both;
+}
+
+details, ul {
+  padding: 0 20px;
+}
+
+body {
+  background: white;
+  color: #333333;
+  font: 100%/1.5 "Proxima Nova", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: right;
+}
+
+h1, h2 {
+  color: white;
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+h1 {
+  background: #333333;
+  color: white;
+  margin-top: 0;
+}
+
+h2 {
+  background: #268bd2;
+  text-transform: uppercase;
+}
+
+a {
+  color: #268bd2;
+}
+
+pre, code {
+  font-family: "Consolas", "Monaco", "Menlo", monospace, serif;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+small, code, pre {
+  color: #585858;
+}
+
+.index {
+  font-size: 110%;
+  padding: 20px;
+}
+
+details {
+  background: #585858;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+details code, details pre {
+  color: white;
+}
+details pre {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+details a {
+  color: #fff;
+}
+
+ul.icons {
+  margin: 0;
+  list-style: none;
+}
+ul.icons li {
+  border: solid 1px #ececec;
+  display: block;
+  list-style: none;
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+  text-align: center;
+  min-height: 150px;
+}
+ul.icons h3 {
+  color: #999;
+  display: block;
+  font: normal 1em/2 "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+  margin: -10px 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+ul.icons code {
+  display: block;
+}
+ul.icons i {
+  display: inline-block;
+  font-size: 50px;
+}
+ul.icons i:after {
+  margin-left: 20px;
+}
+.social ul.icons i {
+  display: block;
+}
+
+nav {
+  background: #2aa198;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+}
+nav li:after {
+  content: " /";
+}
+nav li:last-child:after {
+  content: "";
+}
+nav a {
+  font-weight: normal;
+  text-decoration: none;
+}
+nav a, nav a:visited {
+  color: #fff;
+}
+nav .active {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+  ul.icons li {
+    width: 32%;
+    float: left;
+    margin: 0 1% 1% 0;
+  }
+}
+@media screen and (min-width: 980px) {
+  ul.icons li {
+    width: 24%;
+  }
+  ul.icons i {
+    font-size: 50px;
+  }
+}

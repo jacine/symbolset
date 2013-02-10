@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2012 Oak Studios LLC
+*/
+.android:after, .appdotnet:after, .apple:after, .behance:after, .blackberry:after, .blogger:after, .dribbble:after, .dropbox:after, .facebook:after, .fivehundredpx:after, .flickr:after, .foursquare:after, .github:after, .googleplus:after, .instagram:after, .kickstarter:after, .lastfm:after, .like:after, .linkedin:after, .mail:after, .microsoft:after, .octocat:after, .paypal:after, .pinboard:after, .pinterest:after, .posterous:after, .rdio:after, .readmill:after, .reddit:after, .rss:after, .share:after, .skype:after, .soundcloud:after, .spotify:after, .stackoverflow:after, .svpply:after, .tumblr:after, .twitter:after, .vimeo:after, .windows:after, .wordpress:after, .yelp:after, .youtube:after, .zerply:after, i {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+html:hover .android:after, html:hover .appdotnet:after, html:hover .apple:after, html:hover .behance:after, html:hover .blackberry:after, html:hover .blogger:after, html:hover .dribbble:after, html:hover .dropbox:after, html:hover .facebook:after, html:hover .fivehundredpx:after, html:hover .flickr:after, html:hover .foursquare:after, html:hover .github:after, html:hover .googleplus:after, html:hover .instagram:after, html:hover .kickstarter:after, html:hover .lastfm:after, html:hover .like:after, html:hover .linkedin:after, html:hover .mail:after, html:hover .microsoft:after, html:hover .octocat:after, html:hover .paypal:after, html:hover .pinboard:after, html:hover .pinterest:after, html:hover .posterous:after, html:hover .rdio:after, html:hover .readmill:after, html:hover .reddit:after, html:hover .rss:after, html:hover .share:after, html:hover .skype:after, html:hover .soundcloud:after, html:hover .spotify:after, html:hover .stackoverflow:after, html:hover .svpply:after, html:hover .tumblr:after, html:hover .twitter:after, html:hover .vimeo:after, html:hover .windows:after, html:hover .wordpress:after, html:hover .yelp:after, html:hover .youtube:after, html:hover .zerply:after, html:hover i {
+  -ms-zoom: 1;
+}
+
+.android:after {
+  content: '';
+}
+
+.appdotnet:after {
+  content: '';
+}
+
+.apple:after {
+  content: '';
+}
+
+.behance:after {
+  content: '';
+}
+
+.blackberry:after {
+  content: '';
+}
+
+.blogger:after {
+  content: '';
+}
+
+.dribbble:after {
+  content: '';
+}
+
+.dropbox:after {
+  content: '';
+}
+
+.facebook:after {
+  content: '';
+}
+
+.fivehundredpx:after {
+  content: '';
+}
+
+.flickr:after {
+  content: '';
+}
+
+.foursquare:after {
+  content: '';
+}
+
+.github:after {
+  content: '';
+}
+
+.googleplus:after {
+  content: '';
+}
+
+.instagram:after {
+  content: '';
+}
+
+.kickstarter:after {
+  content: '';
+}
+
+.lastfm:after {
+  content: '';
+}
+
+.like:after {
+  content: '👍';
+}
+
+.linkedin:after {
+  content: '';
+}
+
+.mail:after {
+  content: '✉';
+}
+
+.microsoft:after {
+  content: '';
+}
+
+.octocat:after {
+  content: '';
+}
+
+.paypal:after {
+  content: '';
+}
+
+.pinboard:after {
+  content: '';
+}
+
+.pinterest:after {
+  content: '';
+}
+
+.posterous:after {
+  content: '';
+}
+
+.rdio:after {
+  content: '';
+}
+
+.readmill:after {
+  content: '';
+}
+
+.reddit:after {
+  content: '';
+}
+
+.rss:after {
+  content: '';
+}
+
+.share:after {
+  content: '';
+}
+
+.skype:after {
+  content: '';
+}
+
+.soundcloud:after {
+  content: '';
+}
+
+.spotify:after {
+  content: '';
+}
+
+.stackoverflow:after {
+  content: '';
+}
+
+.svpply:after {
+  content: '';
+}
+
+.tumblr:after {
+  content: '';
+}
+
+.twitter:after {
+  content: '';
+}
+
+.vimeo:after {
+  content: '';
+}
+
+.windows:after {
+  content: '';
+}
+
+.wordpress:after {
+  content: '';
+}
+
+.yelp:after {
+  content: '';
+}
+
+.youtube:after {
+  content: '';
+}
+
+.zerply:after {
+  content: '';
+}
+
+@font-face {
+  font-family: "SSSocial";
+  src: url("../../fonts/ss-social/webfonts/ss-social-regular.eot");
+  src: url("../../fonts/ss-social/webfonts/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/ss-social/webfonts/ss-social-regular.woff") format("woff"), url("../../fonts/ss-social/webfonts/ss-social-regular.ttf") format("truetype"), url("../../fonts/ss-social/webfonts/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.android:after, .appdotnet:after, .apple:after, .behance:after, .blackberry:after, .blogger:after, .dribbble:after, .dropbox:after, .facebook:after, .fivehundredpx:after, .flickr:after, .foursquare:after, .github:after, .googleplus:after, .instagram:after, .kickstarter:after, .lastfm:after, .like:after, .linkedin:after, .mail:after, .microsoft:after, .octocat:after, .paypal:after, .pinboard:after, .pinterest:after, .posterous:after, .rdio:after, .readmill:after, .reddit:after, .rss:after, .share:after, .skype:after, .soundcloud:after, .spotify:after, .stackoverflow:after, .svpply:after, .tumblr:after, .twitter:after, .vimeo:after, .windows:after, .wordpress:after, .yelp:after, .youtube:after, .zerply:after, i {
+  font-family: "SSSocial";
+}

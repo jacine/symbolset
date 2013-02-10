@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "SSSocial";
+  src: url('#{$ss-social-directory}ss-social-regular.eot');
+  src: url('#{$ss-social-directory}ss-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('#{$ss-social-directory}ss-social-regular.woff') format('woff'),
+       url('#{$ss-social-directory}ss-social-regular.ttf') format('truetype'),
+       url('#{$ss-social-directory}ss-social-regular.svg#SSSocialRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+%ss-social-regular {
+  @extend %ss-icon;
+  font-family: "SSSocial";
+}
+
+%ss-android { @extend %ss-social-regular; @extend %c-android; }
+%ss-appdotnet { @extend %ss-social-regular; @extend %c-appdotnet; }
+%ss-apple { @extend %ss-social-regular; @extend %c-apple; }
+%ss-behance { @extend %ss-social-regular; @extend %c-behance; }
+%ss-blackberry { @extend %ss-social-regular; @extend %c-blackberry; }
+%ss-blogger { @extend %ss-social-regular; @extend %c-blogger; }
+%ss-dribbble { @extend %ss-social-regular; @extend %c-dribbble; }
+%ss-dropbox { @extend %ss-social-regular; @extend %c-dropbox; }
+%ss-facebook { @extend %ss-social-regular; @extend %c-facebook; }
+%ss-fivehundredpx { @extend %ss-social-regular; @extend %c-fivehundredpx; }
+%ss-flickr { @extend %ss-social-regular; @extend %c-flickr; }
+%ss-foursquare { @extend %ss-social-regular; @extend %c-foursquare; }
+%ss-github { @extend %ss-social-regular; @extend %c-github; }
+%ss-googleplus { @extend %ss-social-regular; @extend %c-googleplus; }
+%ss-instagram { @extend %ss-social-regular; @extend %c-instagram; }
+%ss-kickstarter { @extend %ss-social-regular; @extend %c-kickstarter; }
+%ss-lastfm { @extend %ss-social-regular; @extend %c-lastfm; }
+%ss-like { @extend %ss-social-regular; @extend %c-like; }
+%ss-linkedin { @extend %ss-social-regular; @extend %c-linkedin; }
+%ss-mail { @extend %ss-social-regular; @extend %c-mail; }
+%ss-microsoft { @extend %ss-social-regular; @extend %c-microsoft; }
+%ss-octocat { @extend %ss-social-regular; @extend %c-octocat; }
+%ss-paypal { @extend %ss-social-regular; @extend %c-paypal; }
+%ss-pinboard { @extend %ss-social-regular; @extend %c-pinboard; }
+%ss-pinterest { @extend %ss-social-regular; @extend %c-pinterest; }
+%ss-posterous { @extend %ss-social-regular; @extend %c-posterous; }
+%ss-rdio { @extend %ss-social-regular; @extend %c-rdio; }
+%ss-readmill { @extend %ss-social-regular; @extend %c-readmill; }
+%ss-reddit { @extend %ss-social-regular; @extend %c-reddit; }
+%ss-rss { @extend %ss-social-regular; @extend %c-rss; }
+%ss-share { @extend %ss-social-regular; @extend %c-share; }
+%ss-skype { @extend %ss-social-regular; @extend %c-skype; }
+%ss-soundcloud { @extend %ss-social-regular; @extend %c-soundcloud; }
+%ss-spotify { @extend %ss-social-regular; @extend %c-spotify; }
+%ss-stackoverflow { @extend %ss-social-regular; @extend %c-stackoverflow; }
+%ss-svpply { @extend %ss-social-regular; @extend %c-svpply; }
+%ss-tumblr { @extend %ss-social-regular; @extend %c-tumblr; }
+%ss-twitter { @extend %ss-social-regular; @extend %c-twitter; }
+%ss-vimeo { @extend %ss-social-regular; @extend %c-vimeo; }
+%ss-windows { @extend %ss-social-regular; @extend %c-windows; }
+%ss-wordpress { @extend %ss-social-regular; @extend %c-wordpress; }
+%ss-yelp { @extend %ss-social-regular; @extend %c-yelp; }
+%ss-youtube { @extend %ss-social-regular; @extend %c-youtube; }
+%ss-zerply { @extend %ss-social-regular; @extend %c-zerply; }

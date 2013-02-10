@@ -1,0 +1,51 @@
+
+$ss-social-directory: '../../fonts/ss-social/webfonts/';
+
+@import "symbolset/symbolset";
+@import "symbolset/ss-social-circle";
+
+i { @extend %ss-social-circle; }
+.android:after { @extend %ss-android-circle; }
+.appdotnet:after { @extend %ss-appdotnet-circle; }
+.apple:after { @extend %ss-apple-circle; }
+.behance:after { @extend %ss-behance-circle; }
+.blackberry:after { @extend %ss-blackberry-circle; }
+.blogger:after { @extend %ss-blogger-circle; }
+.dribbble:after { @extend %ss-dribbble-circle; }
+.dropbox:after { @extend %ss-dropbox-circle; }
+.facebook:after { @extend %ss-facebook-circle; }
+.fivehundredpx:after { @extend %ss-fivehundredpx-circle; }
+.flickr:after { @extend %ss-flickr-circle; }
+.foursquare:after { @extend %ss-foursquare-circle; }
+.github:after { @extend %ss-github-circle; }
+.googleplus:after { @extend %ss-googleplus-circle; }
+.instagram:after { @extend %ss-instagram-circle; }
+.kickstarter:after { @extend %ss-kickstarter-circle; }
+.lastfm:after { @extend %ss-lastfm-circle; }
+.like:after { @extend %ss-like-circle; }
+.linkedin:after { @extend %ss-linkedin-circle; }
+.mail:after { @extend %ss-mail-circle; }
+.microsoft:after { @extend %ss-microsoft-circle; }
+.octocat:after { @extend %ss-octocat-circle; }
+.paypal:after { @extend %ss-paypal-circle; }
+.pinboard:after { @extend %ss-pinboard-circle; }
+.pinterest:after { @extend %ss-pinterest-circle; }
+.posterous:after { @extend %ss-posterous-circle; }
+.rdio:after { @extend %ss-rdio-circle; }
+.readmill:after { @extend %ss-readmill-circle; }
+.reddit:after { @extend %ss-reddit-circle; }
+.rss:after { @extend %ss-rss-circle; }
+.share:after { @extend %ss-share-circle; }
+.skype:after { @extend %ss-skype-circle; }
+.soundcloud:after { @extend %ss-soundcloud-circle; }
+.spotify:after { @extend %ss-spotify-circle; }
+.stackoverflow:after { @extend %ss-stackoverflow-circle; }
+.svpply:after { @extend %ss-svpply-circle; }
+.tumblr:after { @extend %ss-tumblr-circle; }
+.twitter:after { @extend %ss-twitter-circle; }
+.vimeo:after { @extend %ss-vimeo-circle; }
+.windows:after { @extend %ss-windows-circle; }
+.wordpress:after { @extend %ss-wordpress-circle; }
+.yelp:after { @extend %ss-yelp-circle; }
+.youtube:after { @extend %ss-youtube-circle; }
+.zerply:after { @extend %ss-zerply-circle; }

@@ -1,0 +1,51 @@
+
+$ss-social-directory: '../../fonts/ss-social/webfonts/';
+
+@import "symbolset/symbolset";
+@import "symbolset/ss-social-regular";
+
+i { @extend %ss-social-regular; }
+.android:after { @extend %ss-android; }
+.appdotnet:after { @extend %ss-appdotnet; }
+.apple:after { @extend %ss-apple; }
+.behance:after { @extend %ss-behance; }
+.blackberry:after { @extend %ss-blackberry; }
+.blogger:after { @extend %ss-blogger; }
+.dribbble:after { @extend %ss-dribbble; }
+.dropbox:after { @extend %ss-dropbox; }
+.facebook:after { @extend %ss-facebook; }
+.fivehundredpx:after { @extend %ss-fivehundredpx; }
+.flickr:after { @extend %ss-flickr; }
+.foursquare:after { @extend %ss-foursquare; }
+.github:after { @extend %ss-github; }
+.googleplus:after { @extend %ss-googleplus; }
+.instagram:after { @extend %ss-instagram; }
+.kickstarter:after { @extend %ss-kickstarter; }
+.lastfm:after { @extend %ss-lastfm; }
+.like:after { @extend %ss-like; }
+.linkedin:after { @extend %ss-linkedin; }
+.mail:after { @extend %ss-mail; }
+.microsoft:after { @extend %ss-microsoft; }
+.octocat:after { @extend %ss-octocat; }
+.paypal:after { @extend %ss-paypal; }
+.pinboard:after { @extend %ss-pinboard; }
+.pinterest:after { @extend %ss-pinterest; }
+.posterous:after { @extend %ss-posterous; }
+.rdio:after { @extend %ss-rdio; }
+.readmill:after { @extend %ss-readmill; }
+.reddit:after { @extend %ss-reddit; }
+.rss:after { @extend %ss-rss; }
+.share:after { @extend %ss-share; }
+.skype:after { @extend %ss-skype; }
+.soundcloud:after { @extend %ss-soundcloud; }
+.spotify:after { @extend %ss-spotify; }
+.stackoverflow:after { @extend %ss-stackoverflow; }
+.svpply:after { @extend %ss-svpply; }
+.tumblr:after { @extend %ss-tumblr; }
+.twitter:after { @extend %ss-twitter; }
+.vimeo:after { @extend %ss-vimeo; }
+.windows:after { @extend %ss-windows; }
+.wordpress:after { @extend %ss-wordpress; }
+.yelp:after { @extend %ss-yelp; }
+.youtube:after { @extend %ss-youtube; }
+.zerply:after { @extend %ss-zerply; }
