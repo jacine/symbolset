@@ -29,15 +29,15 @@ First, you must purchase the font sets you want to use from [https://symbolset.c
     $ss-symbolicons-line-dir: '../fonts/ss-symbolicons-line/webfonts/';
 
     // Import the base file.
-    @import "symbolset/symbolset";
+    @import "symbolset";
 
     // Import only the font sets you wish to use (Do NOT use all of them at once).
-    @import "symbolset/ss-pika";
-    @import "symbolset/ss-social-circle";
-    @import "symbolset/ss-social-regular";
-    @import "symbolset/ss-standard";
-    @import "symbolset/ss-symbolicons-block";
-    @import "symbolset/ss-symbolicons-line";
+    @import "ss-pika";
+    @import "ss-social-circle";
+    @import "ss-social-regular";
+    @import "ss-standard";
+    @import "ss-symbolicons-block";
+    @import "ss-symbolicons-line";
     ```
 3. Add icons to your CSS using `@extend`:
     ```scss
